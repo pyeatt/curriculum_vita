@@ -1,0 +1,15 @@
+
+# LaTeX intermediate files
+*.log
+*.mw
+*.nav
+*.out
+*.snm
+*.toc
+*.vrb
+*.aux
+*.bbl
+*.blg
+*.dtx
+*.glo
+*.ins

@@ -1,0 +1,52 @@
+[10pt]article
+labels
+
+
+
+
+
+
+
+
+
+
+
+Dr. Robert P. Cook, Chair
+              Department of Computer and Information Science
+              University of Mississippi
+              302 Weir Hall
+              University, MS 38677 
+Professor Tzi-cker Chiueh
+              Chairman, Faculty Recruiting Committee
+              SUNY at Stony Brook 
+              Computer Science Department
+              Stony Brook, NY  11794-4400  
+Faculty Search Committee
+              Computer Science Department 
+              Tennessee Technological University
+              P.O. Box 5101 
+              Cookeville, TN 38505 
+Donna Max, Executive Assistant to the Dean
+              School of CTI
+              DePaul University
+              243 South Wabash Avenue
+              Chicago, IL 60604 
+Alvin Surkan
+              CSE Search Committee Chair
+              University of Nebraska -- Lincoln 
+              Computer Science and Engineering Dept.
+              Lincoln, NE 68588-0115 
+Dr. Scott T. Leutenegger
+              Mathematics and Computer Science Department
+              University of Denver
+              2360 Gaylord Street
+              Denver, CO 80208-0189 
+John D. McGregor
+              Department of Computer Science
+              Clemson University
+              Clemson, SC 29634-1906 
+Ahmed H. Sameh
+              Department of Computer Sciences
+              Purdue University
+              West Lafayette, IN 47907 
+

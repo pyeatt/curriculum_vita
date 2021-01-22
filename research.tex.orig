@@ -1,0 +1,66 @@
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{ifthen}
+\usepackage{times}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+
+\textwidth 7.25in
+\evensidemargin -0.375in
+\oddsidemargin -0.375in
+\topmargin -0.25in
+\textheight 9.5in
+
+\bibliographystyle{plain}
+\renewcommand{\refname}{\vspace{-\baselineskip}} 
+
+%% \textwidth 6.5in
+%% \textheight 9in
+%% \evensidemargin 0in
+%% \oddsidemargin 0in
+%% \topmargin 0in
+%% \headheight 0in
+%% \headsep 0in
+
+\headheight 3\normalbaselineskip
+\headsep \normalbaselineskip
+\addtolength{\topmargin}{-3\normalbaselineskip}
+\addtolength{\textheight}{-1\normalbaselineskip}
+\lhead{}
+\rhead{\thepage}
+\chead{Larry D. Pyeatt, PhD\\Curriculum Vitae}
+\cfoot{}
+\lfoot{}
+\rfoot{}
+
+\renewcommand{\line}{\vspace{10pt}
+\hrule
+\vspace{10pt}
+}
+
+\newcommand{\name}[1]{\centerline{ \Large \bf #1} \nobreak \vspace{1ex}}
+
+\newcommand{\address}[1]{
+\begin{center}
+{#1}
+\end{center}}
+
+\newcommand\myaddress{1811 McKinley \\ Levelland, Texas 79336 \\
+         larry.pyeatt@ttu.edu \\ (806)241-6151 }
+
+\begin{document}
+\name{\begin{minipage}{\textwidth}\vspace*{-\baselineskip}\begin{center}Larry D. Pyeatt, PhD \\ Curriculum Vitae\end{center}\end{minipage}}
+
+\pagestyle{empty}
+\pagenumbering{arabic}      % Arabic page numbers
+\thispagestyle{empty}
+
+\address{\myaddress}
+\line
+
+
+\vspace{\baselineskip}
+\input{research-body}
+\bibliography{/home/pyeatt/bibliography/LarryPubs}
+
+\end{document}

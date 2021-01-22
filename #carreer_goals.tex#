@@ -1,0 +1,46 @@
+\documentclass[12pt]{article}
+\usepackage{times}
+\usepackage{fancyheadings}
+%\pagestyle{empty}
+\textwidth 6.5in
+\textheight 9in
+\evensidemargin 0in
+\oddsidemargin 0in
+\topmargin 0in
+
+ 
+\headheight 3\normalbaselineskip
+\headsep \normalbaselineskip
+\addtolength{\topmargin}{-3\normalbaselineskip}
+\addtolength{\textheight}{-1\normalbaselineskip}
+\lhead{}
+\rhead{\thepage}
+\chead{Larry D. Pyeatt \\ Career Goals}
+\cfoot{}
+\lfoot{}
+\rfoot{}
+
+
+
+\pagestyle{fancyplain}
+%\thispagestyle{empty}
+\setcounter{page}{6}
+
+\begin{document}
+
+\newpage
+%\thispagestyle{empty}
+
+%\maketitle
+
+%\thispagestyle{empty}
+
+Career goals are...
+
+\subsection*{Teaching Interests}
+\input{teaching-body}
+
+\subsection*{Research Interests}
+\input{research-body}
+
+\end{document}

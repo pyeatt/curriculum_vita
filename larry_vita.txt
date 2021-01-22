@@ -1,0 +1,235 @@
+Larry D. Pyeatt
+1228 Columbine Court
+Fort Collins, CO 80521
+(970) 490--6047
+pyeatt@cs.colostate.edu
+Available January, 1999
+
+Education 
+
+  Doctor of Philosophy in Computer Science
+  Colorado State University, Expected December, 1998.
+  Dissertation title: Automatic Learning of Low Level Behaviors in a
+  Multi­LevelRobot Architecture
+  Committee: Adele Howe (Chairperson), Charles W. Anderson, Ross Beveridge,
+  Darrell Whitley, Wade Troxell
+
+  Master of Science in Computer Science
+  Texas Tech University, 1991.
+  Thesis title: Application of the Neural Ring Pattern Classifier to Speech
+  Recognition
+  Committee: W. J. Bryan Oldham (Chairperson), Thomas M. English
+
+  Bachelor of Science in Computer Science
+  Texas Tech University, 1988.
+  Minor in Psychology with additional course work in Mathematics and
+  Electrical Engineering.
+
+Research Interests
+
+  Artificial Intelligence, Robotics and Agent Architectures, Real­time and
+  Embedded Systems, Machine Learning, Reinforcement Learning, Function
+  Approximation, Partially Observable Markov Decision Processes,
+  Characterizing Structure in Discrete Event Sequences.
+
+Honors and Awards
+  Academic
+    Engineering Academic Scholarship
+    President's List
+    Dean's List
+    Upsilon Pi Epsilon (computer science honor society)
+  Texaco
+    Individual Outstanding Contribution (IOC) award for innovation
+    Exploration & Production Technology Department Award for Outstanding
+      Supplier
+    Patent Application Award
+
+Professional Experience
+
+  Lecturer Colorado State University, Fort Collins, 1/98 to 5/98. Taught
+  course in digital design and assembly language programming.
+
+  Graduate Research Assistant Colorado State University, Fort Collins, 9/93 to
+  present. Performed research in the areas of genetic algorithms, planning,
+  neural networks, reinforcement learning, partially observable Markov
+  decision processes, robot control. Wrote code in C, C++, Perl, and Lisp on
+  Sun, HP, SGI, RS6000 and Linux.
+
+  Genetic algorithms 
+
+    Wrote C code to implement genetic algorithm and track the ranking of
+    hyperplanes during genetic search; compared dynamic ranking with static
+    ranking. Wrote C code to evolve neural network weights. Wrote
+    polebalancing simulator in C with real­time graphical display using the X
+    Window System. Compared results with Frederic Gruau's Cellular Encoding
+    method.
+
+  Geographical information systems (GIS) 
+
+    Developed method to normalize lighting and remove shadows from aerial and
+    satellite terrain photographs. The software worked by texture mapping the
+    photograph onto the corresponding USGS elevation data, calculating the
+    position of the sun at the time the photograph was taken, and applying an
+    inverse lighting calculation. The normalized photograph could then be
+    texture mapped onto the USGS elevation data and a forward lighting model
+    could be applied to show lighting conditions at any time of day or
+    year. This software was written in C and C++.
+
+  Structure in Discrete Event Sequences 
+
+    Wrote code in Lisp to detect dependen­ cies in program execution traces
+    and construct a Semi­Markov model of the un­ derlying system
+    behavior. Integrated my code with CLASP. Worked with Adele Howe, Eric
+    Dahlman and Gabriel Somlo to write CLASPWeb which allows anyone with a web
+    browser to use CLASP. (http://satchmo.cs.colostate.edu:4936)
+
+  Neural networks and reinforcement learning 
+
+    Wrote a Pente game in C++ using X Window System. Wrote reinforcement
+    learning code in C++ using neural networks for learning function
+    approximation. Ran experiments using the Pente game, pole­balancing
+    simulator and the Robot Auto Racing Simulator (RARS). Added a high­level
+    controller to the RARS system to allow switching between learned
+    behaviors. Invented a new learning function approximation technique based
+    on decision trees. Showed that it was superior to the neural network
+    approach.
+
+  Partially observable Markov decision processes 
+
+    Wrote POMDP solver in C++ based on the Witness algorithm. This required a
+    general linear program solver and sparse matrix library, also written in
+    C++. Improved the Witness algorithm to speed up convergence. Developed
+    client­server system to allow parallel execution on several Unix machines.
+
+  Robotics 
+
+    Developed a three­level control architecture for the Khepera robot using
+    a Lisp­based planner at the highest level, C++ POMDP planning at the middle
+    level, and C++ decision tree based reinforcement learning at the low
+    level. Showed that a robot could learn low level behaviors as necessary to
+    complete its task and could modify its low level behaviors to adapt to
+    sensor and effector failures.
+
+  Other projects 
+
+    Completed several smaller projects, including a ray tracer, a com­ puter
+    vision system, and an optimizing compiler for a language similar to
+    C. These projects were mostly written in C and C++.
+
+
+  Senior Information Systems Programmer Texaco Inc., Houston, Texas, 9/91 to
+    9/93.  
+  Evaluation and application of Artificial Intelligence and advanced problem
+  solving techniques for Texaco business needs. Delivered applications on PC,
+  Unix, and IBM mainframe platforms. Performed system administration for Unix
+  environment. Used a wide variety of systems, languages, tools and
+  techniques. Two major projects were:
+
+  SpectraMan 
+
+    Ultraviolet Fluorescence Spectra Manager. The software was used to
+    automate the process of identifying and characterizing unknown hydrocarbon
+    mixtures. It kept a database of thousands of known 3D ultraviolet
+    fluorescence spectra.  The chemist could use a neural network, embedded in
+    the software, to ''visually'' match an unknown sample to every other
+    sample in the database. The neural net selected a user­specified number of
+    similar spectra that the chemist could then view and print, along with
+    additional information in the database, in order to make a final
+    determination about the characteristics of the unknown sample. This
+    software greatly reduced the time required to perform an analysis and
+    enabled a large increase in the productivity of the chemists. I wrote the
+    prototype in two weeks in assembly and C on a PC running DOS. The
+    prototype showed what was possible, but was deemed too slow and could only
+    allow viewing of one spectrum at a time. The final version of the software
+    was written in C using the X Window System, Motif, OpenGL, and an SQL
+    database server. It was developed on Sun and delivered on SGI. The lead
+    chemist, Dr. Marilyn Reyes, and I were awarded United States Patent
+    5424959 for this software.
+
+
+  Reservoir Modeling 
+
+    The reservoir management team at Texaco gathers production data on every
+    reservoir that Texaco owns. Once they have sufficient data on a particular
+reservoir, they try to fit the data to one of several mathematical models.  If
+they select the correct model, they can predict the production of the
+reservoir and select an appropriate production schedule. The developers of the
+original models were approaching retirement. Rather than lose their skills, I
+was asked to built an expert system for selecting the reservoir model. The
+expert system was developed using Aion ADS and C on an IBM mainframe and
+delivered on mainframe and PC platforms.  
+
+
+Graduate Research Assistant Texas
+Tech University, Lubbock, Texas, 8/88 to 9/91.  Research in neural networks
+and speech recognition.  Masters Thesis Developed speaker independent speech
+recognition system for digits based on the neural ring pattern classifier. The
+speech recognition system followed the now standard model of signal
+preprocessing, fast Fourier transform, Mel scale extraction, segmentation
+using a hidden Markov model, and recognition. The recognition section used a
+neural ring pattern classifier. The system was written in C on SunOS.  Other
+work Evaluated currently available hardware and operating systems for em­
+bedded distributed control of silicon wafer processing machinery. Made recom­
+mendation to the company which funded the study.  Taught Introduction to
+Computer Science course using Pascal.  Taught digital electronics
+lab. Supervised construction of circuits by the students.  Assisted students
+in the implementation of their circuit designs.  Self­Employed 8/88 to
+7/89. Developed accounting and subscriber list software for small
+newspapers. Wrote code in C and Pascal on IBM PC and Apple Macintosh systems.
+Electronics Design Engineer Applied Hydraulics, Lubbock, Texas, 1/87 to
+7/88. De­ signed microprocessor and sequential logic based systems for
+industrial control and data acquisition. Designed circuit boards for the
+systems. Supervised technical staff who were responsible for constructing the
+hardware designs. Designed and wrote software for the new systems in assembly
+and C. Was responsible for all stages of the process: assessing customer
+needs, creating design specifications, implementing the systems, installing at
+the customer's site, and providing post­delivery technical assistance.
+Publications Adele E. Howe, Gabriel Somlo, and Larry Pyeatt, ``Characterizing
+Structure in Discrete Event Sequences,'' To be published in Journal of
+Artificial Intelligence Research, July­ Dec. 1998 Larry D. Pyeatt and Adele
+E. Howe, ``Decision Tree Function Approximation in Reinforce­ ment Learning,''
+Submitted to Neural Information Processing Systems `98.  Larry D. Pyeatt and
+Adele E. Howe, ``Learning to Race: Experiments with a Simulated Race Car,''
+11th International Florida Artificial Intelligence Research Society Confer­
+ence, Sanibel Island, Florida, May 17­20, 1998.  Larry D. Pyeatt and Adele
+E. Howe, ``Reinforcement Learning for Coordinated Reactive Control,'' Fourth
+World Congress on Expert Systems, Mexico City, Mexico, March 16­20, 1998.
+Adele E. Howe and Larry D. Pyeatt, ``Constructing Transition Models of AI
+Planner Behavior,'' Knowledge Based Systems Engineering Conference, 1996.
+
+Frederic Gruau, Darrell Whitley, and Larry Pyeatt. ``A Comparison Between Cellular
+Encoding and Direct Encoding for Genetic Neural Networks,'' Genetic Programming
+Conference, Stanford, July 27­30, 1996.
+Darrell Whitley, Keith Mathias and Larry Pyeatt, ``Hyperplane Ranking and Implicit
+Parallelism in Simple Genetic Algorithms,'' Sixth International Conference on Genetic
+Algorithms, Pittsburgh, July 15­19, 1995.
+Darrell Whitley, Frederic Gruau and Larry Pyeatt, ``Cellular Encoding Applied to Neu­
+rocontrol,'' Sixth International Conference on Genetic Algorithms, Pittsburgh, July
+15­19, 1995.
+Larry D. Pyeatt and William J.B. Oldham, ``Application of the Neural Ring Pattern Classi­
+fier to Speech Recognition,'' Proceedings of the Southeastern Region ACM Conference,
+Auburn, Alabama, 1991, pp 385­387.
+Patent Marilyn V. Reyes and Larry D. Pyeatt, ``Interpretation of Fluorescence Fingerprints of
+Crude Oils and Other Hydrocarbon Mixtures Using Neural Networks,'' United States
+Patent 5424959, property of Texaco Inc.
+Professional
+Presentations
+Learning to Race: Experiments with a Simulated Race Car 11th International Florida
+Artificial Intelligence Research Symposium, Sanibel Island, Florida, 5/20/98.
+Reinforcement Learning for Coordinated Reactive Control Fourth World Congress on Ex­
+pert Systems, Mexico City, Mexico, 5/16/98.
+Learning New Behaviors NSF Sponsored Workshop on Intelligent Agents, Porto Alegre,
+Brazil, 3/17/97.
+A Comparison between Cellular Encoding and Direct Encoding for Genetic Neural Net­
+works Genetic Programming Conference, Stanford, 7/28/96.
+Application of the Neural Ring Pattern Classifier to Speech Recognition Southeastern
+Region ACM Conference, Auburn, Alabama, 1991.
+Application of the Neural Ring Pattern Classifier to Speech Recognition Southeastern
+Region ACM Conference, Auburn, Alabama, 1991.
+Languages &
+Systems
+C, C++, Pascal, Modula­2, Modula­3, PL/1, Lisp, Prolog, Ada, LISP, 8051 assembly,
+80x86 assembly, VAX Macro assembly, IBM 360 assembly, 680x0 assembly, 6811 as­
+sembly, MIPS assembly, Unix, Macintosh, X11, Motif, Athena, SQL, Perl, HTML,
+OpenGL, Java.
+

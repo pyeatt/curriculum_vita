@@ -1,0 +1,701 @@
+\documentclass[12pt]{resume}
+\usepackage{ifthen}
+\usepackage{times}
+\usepackage{fancyhdr}
+
+%% \textwidth 7in
+%% \evensidemargin -0.175in
+%% \oddsidemargin -0.175in
+\textwidth 7in
+\evensidemargin -0.25in
+\oddsidemargin -0.25in
+\topmargin -0.25in
+\textheight 9.5in
+
+\newboolean{prospectus} 
+\setboolean{prospectus}{false}
+
+\leftcolwidth{1in}
+\colsep{0.1in}
+\outdent{0.25in}
+\outdent{0in}
+ 
+\headheight 3\normalbaselineskip
+\headsep \normalbaselineskip
+\addtolength{\topmargin}{-3\normalbaselineskip}
+\addtolength{\textheight}{-1\normalbaselineskip}
+\lhead{}
+\rhead{\thepage}
+\chead{Larry D. Pyeatt, PhD\\Curriculum Vitae}
+\cfoot{}
+\lfoot{}
+\rfoot{}
+
+\newcommand\myaddress{13286 Edgewood Place\\Piedmont, SD 57769 \\
+         ldpyeatt@gmail.com \\ (806)241-6151}
+
+\renewcommand\myaddress{Department of Mathematics and Computer Science\\
+  South Dakota School of Mines and Technology\\
+         larry.pyeatt@sdsmt.edu}
+
+\begin{document}
+\name{\begin{minipage}{\textwidth}\vspace*{-\baselineskip}\begin{center}Larry D. Pyeatt, PhD \\ Curriculum Vitae\end{center}\end{minipage}}
+
+\pagestyle{fancyplain}
+\thispagestyle{empty}
+
+\address{\myaddress}
+\line
+
+
+\section{Education}
+  {Doctor of Philosophy in Computer Science}
+  {\\Colorado State University, 1999 \\
+  Dissertation:  {\it Integration of Partially Observable Markov
+Decision Processes and Reinforcement Learning for Simulated Robot 
+Navigation}\\ 
+  Committee: Adele Howe (Chair), Charles Anderson, 
+  Darrell Whitley, Wade Troxell }
+   
+\section{} 
+  {Master of Science in Computer Science}    
+  {\\Texas Tech University, 1991 \\
+  Thesis:   {\it Application of the Neural Ring Pattern Classifier
+  to Speech Recognition}\\
+  Committee: W. J. Bryan Oldham (Chair), Thomas M. English, Donald Gustafson}
+   
+\section{} 
+  {Bachelor of Science in Computer Science}    
+  {\\Texas Tech University, 1988 \\
+  Minor in Psychology with additional course work in Mathematics and 
+  Electrical Engineering}
+
+\section{Research Interests}  
+  {} {Machine Learning, Neural Networks, Partially Observable Markov
+    Decision Processes, Reinforcement Learning, Function
+    Approximation, Bioinformatics, Agent Architectures, Real-time and
+    Embedded Systems, Robotics }
+
+\section{Honors and Awards}  
+{Academic}   
+{\\
+Upsilon Pi Epsilon (computer science honor society), Texas Tech University,
+1989\\
+Third Place Team, ACM International Programming Competition,
+Louisville, Kentucky,  1989\\
+%President's List, Texas Tech, Spring 1986 \\
+%Dean's List, Texas Tech, Spring 1986 \\
+Engineering Academic Scholarship, Texas Tech University, 1983}
+
+\section{}
+{Texaco}   
+{\\Patent Letter, August 30, 1995\\
+Patent Application Award, July 19, 1993 \\
+Exploration \& Production Technology Department Award for 
+Outstanding Supplier, February 23, 1993  \\
+Individual Outstanding Contribution (IOC) Award for Innovation,
+August 5, 1992}
+
+%\section{Languages}
+%{}{English, Russian}
+
+\section{Professional Experience}
+{Associate Professor} {South Dakota School of Mines and Technology,
+Rapid City, South Dakota, 8/2012--present.
+Research in Robotics, Partially Observable Markov Decision Processes, and
+Reinforcement Learning.  Teach several graduate and undergraduate courses,
+in areas of Robotics, AI, Computer Forensics, and core Computer Science
+curriculum.  Direct research work of graduate
+students.}
+
+\section{}
+{Associate Professor} {Texas Tech University, Lubbock, 1/2006--7/2012.
+Research in Robotics, Partially Observable Markov Decision Processes, and
+Reinforcement Learning.  Teach several graduate and undergraduate courses,
+in areas of Robotics, AI, Computer Forensics, and core Computer Science
+curriculum.  Direct research work of graduate
+students.}
+
+\section{}
+{Associate Department Chair}{Texas Tech University at Abilene, 8/2007 --
+8/2010.  All duties of Associate professor, plus manage the Computer
+Science department at Abilene.
+Developed strategic plan to increase enrollment of graduate students,
+improve Faculty recruitment and retention, and increase research productivity
+and external funding.}
+
+\section{}
+{Visiting Associate Professor} {University of Missouri, Rolla,
+1/2005--12/2005. Taught graduate course in Markov Decision Processes and
+graduate course in Reinforcement Learning.  Conducted research on two
+research projects in collaboration with Donald Wunsch.  The projects
+involved optimal routing in disruption tolerant networks and threat detection
+and evaluation using smart sensors.  We wrote our own event-driven simulator
+for these projects, so they have taken some time to come into fruition. }
+
+\section{}
+{Assistant Professor} {Texas Tech University, Lubbock,
+9/99--12/2004.  As graduate advisor, led efforts to restructure and improve
+the graduate programs.  Those efforts resulted in growth in enrollment of
+the MS and PhD programs, while also improving the quality of the students,
+both incoming and graduating.  Performed research in Robotics, Partially
+Observable Markov Decision Processes, and Reinforcement Learning.  Taught
+graduate and undergraduate courses including courses in digital logic,
+operating systems, reinforcement learning, and artificial intelligence.
+Directed research work of MS and PhD students.}
+
+\section{}
+{Lecturer}{Colorado State University,
+  Fort Collins, 9/98--9/99. Taught courses in digital
+  logic and assembly language, operating systems, and programming
+  languages.}
+
+\section{}
+{Graduate Research Assistant}{Colorado State University, Fort Collins,
+  multiple appointments, 9/93--9/98.  Research in areas of partially
+  observable Markov decision processes, robotics, neural networks and
+  reinforcement learning, finding structure in discrete event sequences,
+  geographical information systems (GIS), and genetic algorithms.}
+%  in the context of robotics for my dissertation. 
+% The following sections detail some of the research that 
+%  I conducted at Colorado State.}
+%      \begin{description}
+%      \item[Partially Observable Markov Decision
+%        Processes](9/97--9/99)
+%        \ Implemented several POMDP solution
+%        algorithms. 
+%        Extended  the Incremental Pruning algorithm and code to perform
+%        distributed execution on several UNIX machines.
+%      \item[Robotics] (9/97--9/99)
+%        \ Developed a three-level control architecture for the Khepera robot
+%        using a symbolic planner at the highest level, POMDP planning at
+%        the middle level, and reinforcement learning
+%        at the low level.  Implemented middle and low levels and
+%        demonstrated that a robot could learn low level
+%        extended actions
+%        as necessary to complete its task and could modify its low level
+%        actions to adapt to sensor  and effector failures.
+%      \item[Neural Networks and Reinforcement Learning](9/96--9/97)
+%        \ Experimented with reinforcement
+%        learning using neural networks for function
+%        approximation.  Ran experiments using a Pente simulator, pole-balancing
+%        simulator, and the Robot Auto Racing Simulator (RARS).  Added a 
+%        high-level controller to the RARS system to allow switching between
+%        learned behaviors.  Invented a new function approximation
+%        technique based on decision trees.  Showed that it was superior to
+%        the neural network approach.
+%      \item[Structure in Discrete Event Sequences](9/95--9/97)
+%        \ Developed method to detect dependencies in program execution traces
+%        and construct a Semi-Markov model of the underlying system behavior.
+%        Worked with Adele Howe, Eric Dahlman
+%        and Gabriel Somlo to write CLASPWeb which allows anyone with a web
+%        browser to use the code. %(http://satchmo.cs.colostate.edu:4936)
+%      \item[Geographical Information Systems (GIS)](5/95--8/95)
+%        \ Developed method to normalize lighting and remove shadows 
+%        from aerial and satellite terrain photographs.  The software
+%        worked by texture mapping the photograph onto the corresponding
+%        USGS elevation data, calculating the position of the sun at the
+%        time the photograph was taken, and applying an inverse lighting
+%        calculation.  The normalized photograph could then be texture mapped
+%        onto the USGS elevation data and a forward lighting model could
+%        be applied to show lighting conditions at any time of day or year.
+%      \item[Genetic Algorithms](9/93--5/95)
+%        \ Developed system to 
+%        track the ranking of hyperplanes during genetic search;
+%        compared dynamic ranking with static ranking.
+%        Wrote code to evolve neural network weights. Compared the
+%        results with Fr\'ed\'eric Gruau's Cellular Encoding method.  
+%%      \item[Other projects]
+%%        Completed several smaller projects, including a ray tracer,
+%%        a computer vision system, and an optimizing compiler for a language
+%%        similar to C.
+%\end{description}
+
+
+\section{}
+    {Senior Information Systems Programmer} {Texaco Inc., Houston 
+      9/91--9/93.  Applied  Artificial
+    Intelligence techniques to Texaco business needs.}
+%  Delivered applications on PC, Unix, and IBM
+%    mainframe platforms.  Performed system administration for Unix
+%    environment.  Used a wide variety of systems, languages, tools,
+%    and techniques.}
+% Major projects included:}
+%\begin{description}
+%   \item[SpectraMan](9/92--9/94) \ Ultraviolet Fluorescence Spectra
+%   Manager. The software was used to automate the process of
+%   identifying and characterizing unknown hydrocarbon mixtures.  It
+%   kept a database of thousands of known 3D ultraviolet fluorescence
+%   spectra.  The chemist could use a neural network, embedded in the
+%   software, to match an unknown sample to every other
+%   sample in the database.  The neural net selected a user-specified
+%   number of similar spectra that the chemist could then view and
+%   print, along with additional information in the database, in
+%   order to make a final determination about the characteristics of
+%   the unknown sample.  This software greatly reduced the time
+%   required to perform an analysis and enabled a large increase in
+%   the productivity of the chemists.  I wrote the prototype in
+%   assembly and C on a PC running DOS.  The prototype showed what
+%   was possible, but was deemed too slow and could only allow
+%   viewing of one spectrum at a time.  The final version of the
+%   software was written in C using the X Window System, Motif,
+%   OpenGL, and an SQL database server.  It was developed on Sun and
+%   delivered on SGI.  The lead chemist, Dr. Marilyn Reyes, and I
+%   were awarded United States Patent 5424959 for this software.
+
+%   \item[Reservoir Modeling Expert System](11/9--11/92) \ The reservoir management
+%   team at Texaco gathers production data on every reservoir that
+%   Texaco owns.  Once they have sufficient data on a particular
+%   reservoir, they try to fit the data to one of several
+%   mathematical models.  If they select the correct model, they can
+%   accurately predict the production of the reservoir and select an
+%   appropriate production schedule.  There were very few people
+%   experienced in selecting the model, and several experts had recently
+%   retired or were preparing to retire. The team leader was
+%   faced with having an inexperienced staff and no one to
+%   train them.  We built an expert system
+%   for selecting the reservoir model, allowing the team to continue
+%   its work with a reduced and less experienced staff.
+%\end{description}
+    
+ \section{}
+  {Graduate Research Assistant}
+   {Texas Tech University, Lubbock,  8/88--9/91. Research
+  in neural networks and speech recognition.}
+%\begin{description}
+%      \item[Speech Recognition] Developed speaker independent speech
+%      recognition system for digits.  The speech recognition system
+%      followed the now standard model of signal preprocessing, fast
+%      Fourier transform, Mel scale extraction, segmentation using a
+%      hidden Markov model, and recognition.  The recognition section
+%      used a neural ring pattern classifier.  
+%      \item[Embedded Control] Evaluated hardware and
+%      operating systems for embedded distributed control of silicon
+%      wafer processing machinery.  Made recommendation to the
+%      company that funded the study.  Taught Introduction to
+%      Computer Science course using Pascal.  Taught digital
+%      electronics lab.  Supervised construction of circuits by the
+%      students.  Assisted students in the implementation of their
+%      circuit designs.  \end{description}
+
+%\section{}{Self-Employed}{8/88--7/89. 
+%      Developed accounting and subscriber list software for small newspapers. 
+%      Wrote code in C and Pascal on IBM PC and Apple Macintosh systems.}
+   
+\section{}{Embedded Control Systems Engineer} {Applied
+  Hydraulics, Lubbock, Texas, 1/87--7/88.  Designed and built
+  microprocessor and sequential logic based systems for industrial control
+  and data acquisition. }
+% Designed circuit boards for the systems.
+%    Supervised technical staff who were responsible for constructing
+%    the hardware designs.  Designed and wrote software for the new
+%    systems in assembly and C.  Supervised for all stages of
+%    the process: assessing customer needs, creating design
+%    specifications, implementing the systems, installing at the
+%    customer's site, and providing post-delivery technical
+%    assistance.}
+
+%\pagebreak
+
+\newcommand{\bibfile}{$HOME/bibliography/LarryPubs}
+
+
+%\begin{citations}{Accepted Papers Awaiting Publication\vspace*{-\baselineskip}}{\bibfile}
+%
+%\end{citations}
+\begin{citations}{Textbooks}{$HOME/bibliography/LarryPubs}
+\nocite{textbook2019}
+\nocite{textbook2016}
+\end{citations}
+
+\input{journals.tex}
+
+\input{conferences.tex}
+
+%\begin{citations}{Papers in Preparation}{\bibfile}
+%\nocite{Pyeatt:Quasny:C03}
+%\nocite{Moore:Quasny:Pyeatt:C03}
+%\end{citations}
+
+\begin{citations}{Doctoral \\ Dissertation}{\bibfile}
+\nocite{PyeattTHESIS}
+\end{citations}
+
+\begin{citations}{Master's \\ Thesis}{\bibfile}
+\nocite{Pyeatt:91}
+\end{citations}
+
+\input{symposia.tex}
+
+\begin{citations}{Unrefereed Technical Reports}{\bibfile}
+\nocite{Stevens:Pyeatt:Houlton:Goss:95}
+\nocite{Pyeatt:Howe:TR98c}
+\end{citations}
+
+\begin{citations}{Professional
+Presentations}{$HOME/bibliography/LarryInvited}
+\nocite{Present14}
+\nocite{Present13}
+\nocite{Present11}
+\nocite{Present03a}
+\nocite{Present03b}
+\nocite{Present02a}
+\nocite{Present01b}
+\nocite{Present01a}
+\nocite{Present00a}
+\nocite{Present99c}
+\nocite{Present99b}
+\nocite{Present99a}
+\nocite{Present98c}
+\nocite{Present98b}
+\nocite{Present98a}
+\nocite{Present97}
+\nocite{Present96}
+\nocite{Present91}
+\end{citations}
+
+\begin{citations}{Patent}{$HOME/bibliography/LarryPatent}
+\nocite{Reyes:Pyeatt95}
+\end{citations}
+
+\newcommand{\grantfile}{$HOME/bibliography/LarryGrants}
+
+
+\begin{citations}{Pending Proposals}{\grantfile}
+\end{citations}
+
+
+\begin{citations}{Grants Received}{\grantfile}
+  \nocite{Grant2018A}
+  \nocite{Grant2014A}
+  \nocite{Grant2013A}
+  \nocite{GrantH}
+  \nocite{GrantG}
+  \nocite{GrantA}
+  \nocite{GrantB}
+  \nocite{GrantC}
+  \nocite{GrantD}
+  \nocite{GrantE}
+  \nocite{GrantF}
+\end{citations}
+
+
+\begin{citations}{Recent Proposals}{\grantfile}
+  \nocite{GrantProposal2018A}
+  \nocite{GrantProposal2017A}
+  \nocite{GrantProposal2016A}
+  \nocite{GrantProposal2016B}
+  \nocite{WhitePaper2015}
+  \nocite{GrantProposal2015A}
+  \nocite{GrantProposal2014C}
+  %  \nocite{GrantProposal2014B}
+  \nocite{GrantProposal2014A}
+  \nocite{WhitePaper2013}
+  \nocite{GrantProposal2013B}
+  \nocite{GrantProposal2013A}
+\end{citations}
+
+\begin{citations}{Other Proposals}{\grantfile}
+  \nocite{GrantProposalO}
+  \nocite{GrantProposalN}
+  \nocite{GrantProposalM}
+  \nocite{GrantProposalL}
+  \nocite{GrantProposalK}
+  \nocite{GrantProposalJ}
+  \nocite{GrantProposalI}
+  \nocite{GrantProposalH}
+  \nocite{GrantProposalG}
+  \nocite{GrantProposalF}
+  \nocite{GrantProposalE}
+  \nocite{GrantProposalD}
+  \nocite{GrantProposalC}
+  \nocite{GrantProposalB}
+\end{citations}
+
+
+%Progress}{\bibfile}
+%\nocite{PyeattTHESIS}
+%\nocite{PyeattWIPa}
+%\nocite{PyeattWIPb}
+%\nocite{PyeattWIPc}
+%\nocite{PyeattWIPd}
+%\end{citations}
+
+
+\section{Departmental Service}{Programming Team Coach 2016-2017}{Ran mock competitions and managed study sessions for the programming teams. Determined which students would be on each team.  Managed registration for the competition and ran the competition site.}
+
+
+\section{}{Managed Senior Design Team 2015-2016}{We are working on
+  coordinated control of an autonomous quad-rotor and an unmanned
+  ground vehicle to assist in fighting forest fires.}
+
+
+\section{}{2013 International Electro/Information Technology
+  Conference}
+{\\
+\hspace*{1em} Worked as Reviewer\\
+\hspace*{1em} Served as Session chair\\
+}
+
+\vspace*{-1.25\baselineskip}
+\section{}{Participated in preparation for ABET accreditation 2013}{}
+
+\vspace*{-1.25\baselineskip}
+\section{}{Assisted with West River Math Contest 2012 and 2013}{}
+
+\vspace*{-1.25\baselineskip}
+\section{}{Coached Programming Team 2012--Present}{}
+
+\vspace*{-1.25\baselineskip}
+\section{}{CSC and CSR Curriculum Committees 2012--Present}{}
+
+\vspace*{-1.25\baselineskip}
+\section{}{Associate department chair, TTU CS at Abilene 2007--2010}
+{\\
+\hspace*{1em} Lead Abilene branch of the Texas Tech Computer Science Department\\
+\hspace*{1em} Developed strategy to increase student enrollment\\
+\hspace*{1em} Developed strategy to increase research funding and productivity\\
+\hspace*{1em} Developed strategy to recruit and retain top faculty\\
+}
+
+\vspace*{-1.25\baselineskip}
+\section{}{Department Unix Administrator 1999--2008}
+{\\
+  \hspace*{1em} Developed System Administrator Guidelines for the CS department network\\
+  \hspace*{1em} Developed System Usage Policies for the CS department network\\
+\hspace*{1em} Configured servers to provide more reliable service\\
+\hspace*{1em} Installed numerous software packages on server and clients\\
+\hspace*{1em} Set up accounts for all students enrolled in CS courses\\
+\hspace*{1em} Provided email lists for faculty, staff, and students\\
+\hspace*{1em} Set up web-based system support request forms\\
+\hspace*{1em} Provided systems support to other faculty, staff, and students\\
+}
+
+\vspace*{-1.25\baselineskip}
+\section{}{Coached Programming Team 1999--2002}{}
+
+\vspace*{-1.25\baselineskip}
+\section{}{Graduate Advisor 2000--2001}
+{\\
+\hspace*{1em} Re-structured the degree requirements for MS degree\\
+\hspace*{1em} Created new forms and procedures to improve consistency and help enforce requirements\\
+\hspace*{1em} Worked to improve consistency in admissions\\
+\hspace*{1em} Developed new leveling requirements and created mechanisms to ensure compliance\\
+\hspace*{1em} Instituted policies that encourage students to take the thesis option\\
+\hspace*{1em} Drove the creation of posters and brochures to recruit graduate students\\
+}
+
+\vspace*{-1.25\baselineskip}
+\section{}{Organized the UIL Computer Science competition 1999-2005}{}
+
+\vspace*{-1.25\baselineskip}
+\section{}{Served on faculty recruiting committees 2001--2003}{}
+
+\vspace*{-1.25\baselineskip}
+\section{}{Served on multiple M.S. thesis committees 2000--Present}{}
+
+\section{International Service}{External Examiner}
+{
+PhD defense of Adam Milstein, ``Improved Particle Filter Based Localization and Mapping,''
+University of Waterloo, Waterloo, CA, March 5, 2008.
+}
+
+\section{\ }{Program Committees}
+        {\\
+2004 International Conference on Machine Learning\\
+2001 Third International Symposium on Adaptive Systems \\
+}
+
+
+\section{Professional Service}{Reviewer}
+        {\\          
+          2014 Textbook Reviewer for Elsevier\\
+          2013 IEEE Transactions on Neural Networks and Learning Systems\\
+          2013 Chemical Engineering Science\\
+          2013--2014 Journal of Advances in Robotics and Automation (served on editorial board)\\
+2012 International Conference on Artificial Intelligence\\
+2010 Journal of Machine Learning Research\\
+2004 International Conference on Machine Learning\\
+2002 IASTED International Conference on Applied Informatics (AI 2003)\\
+2001 IEEE Transactions on Pattern Analysis and Machine Intelligence\\
+2001 International Symposium on Adaptive Systems\\
+2000 IEEE Transactions on Pattern Analysis and Machine Intelligence \\ 
+1999 Journal of Experimental and Theoretical Artificial Intelligence\\
+1999 IEEE Transactions on Knowledge and Data Engineering\\
+\rm
+1998 American Journal of Mathematical and Management Sciences\\
+}
+
+
+
+
+\section{Courses Taught}{Undergraduate}
+        {\\
+          \hspace*{1em} Introduction to Robotics (CSC 415/515)\\
+          \hspace*{1em} Assembly Language (CSC/CENG 314)\\
+          \hspace*{1em} Computer Science I (CSC 150)\\
+          \hspace*{1em} Computer Organization and Architecture (CSC 317)\\
+          \hspace*{1em} Senior Design (CSC 465)\\
+\hspace*{1em} Introduction to Systems Programming\\
+\hspace*{1em} Introduction to Digital Logic\\
+\hspace*{1em} Advanced Digital Projects\\
+\hspace*{1em} Operating Systems\\
+\hspace*{1em} Introduction to AI Robotics\\
+\hspace*{1em} Programming Languages
+}
+
+\section{}{Graduate}
+{\\
+  \hspace*{1em} Introduction to Robotics (CSC 415/515)\\
+\hspace*{1em} Digital Forensics\\
+\hspace*{1em} Computer Architecture\\
+\hspace*{1em} Markov Decision Processes\\
+\hspace*{1em} Reinforcement Learning\\
+\hspace*{1em} Advanced Operating Systems\\
+\hspace*{1em} Intelligent Systems\\
+\hspace*{1em} Introduction to AI Robotics\\
+\hspace*{1em} All-terrain Robotics
+}
+
+\section{Graduate Students Advised}{Master's Students}
+{\\Derek Stotz, Expected Graduation in 2016\\
+  Tetsuya Idota, Graduated May, 2015\\
+  Amit Yadav, Graduated May, 2012\\
+  Shubham Shukla, graduated in May, 2011\\
+  Mahdi Naser-Moghadasi, graduated in May, 2010\\
+  Arisoa Randrianasolo, graduated in May, 2010\\
+  Eddy Borera, graduated in  May, 2010\\
+  Nguyen Bach, graduated in  May, 2010\\
+  Derik Dalton, graduated December, 2009\\
+  Roger Coffey, graduated May, 2009\\
+  ChengCheng Li, graduated in May, 2005\\
+  Karan Gupta, graduated in May, 2005\\
+  Krishnan Pazhayanoor,graduated in December, 2004\\
+  Julian Hooker, graduated in May, 2004\\
+  Todd Quasny, graduated in December, 2003\\
+  Bharani Ellore, graduated in December, 2002\\
+  Srividya Kona, graduated in May, 2002\\
+  Ajay Bansal, graduated in May, 2002\\
+}
+
+\section{}{Doctoral Students}
+{
+  \\Eddy Borera, expected Graduated December 2012\\
+  Arisoa Randrianasolo, Graduated May 2012\\
+  Brett Moore, Graduated April, 2010\\
+ }
+
+%\section{}{Bachelor's Students}
+%{\\Todd Quasny, graduated in December, 2001
+%}
+
+%\section{Languages \& Systems }{}
+%        {C, C++, Pascal, Modula-2, Modula-3, PL/1, Lisp,    
+%        Prolog, Ada, LISP, 8051 assembly, 80x86 assembly, 
+%        VAX Macro assembly, IBM 360 assembly, 680x0 assembly, 
+%        6811 assembly, MIPS assembly, Unix, Macintosh, X11, Motif, 
+%        Athena, SQL, Perl, HTML, OpenGL, Java. }
+%\pagebreak
+
+%\section{References}{}{Available upon request}
+%\section{References}{}
+
+%% \section{References}{Adele E. Howe,}{Department of Computer
+%%   Science, Colorado State University, Fort Collins, CO 80523.  Telephone:
+%%   (970)491--4192, Email: howe@cs.colostate.edu}
+
+%% \section{References}{William M. Marcy,}{Department Chair and Former Provost, Texas Tech
+%%   University, Department of Computer Science, Box 43104, Lubbock, TX 79409,
+%% Telephone: (806)742--3970, Email: william.marcy@ttu.edu}
+
+%% \section{}{Robin R. Murphy,} {Department of Computer Science and Engineering,
+%% 333 H.R.\ Bright Building,
+%% Texas A\&M University, 
+%% College Station, TX 77843-3112,
+%% Telephone: (979)845--2015, 
+%% Email: murphy@cs.tamu.edu
+%% }
+
+%% \section{}{Donald C. Wunsch II, } {M.K.\ Finley Distinguished Professor of Computer Engineering,
+%% Department of Electrical and Computer Engineering, 1870 Miner Circle,
+%% 131 Emerson Electric Company Hall,
+%% Rolla, MO 65409, Telephone: (573)341--4521, Email:  dwunsch@ece.umr.edu}
+
+%% \section{}{Susan Mengel,}{Associate Chair, Department of Computer Science, 
+%%   Texas Tech University, Box 43104, Lubbock, TX 79409. Telephone: (806)
+%%   742--3527 Email: susan.mengel@ttu.edu}
+
+
+
+%% \section{}{Henry Hexmoor,}{Department of Computer Science,
+%% Southern Illinois University at Carbondale,
+%% Faner Hall, Room 2130,
+%% Carbondale, IL 62901, 
+%% Telephone: (618)453--6047,
+%% Email: Hexmoor@gmail.com }
+
+%\section{}{Todd M. Quasny,}{(student) Department of Computer Science,
+%  Texas Tech University, Box 43104, Lubbock, TX 79409.  Telephone: (806)
+%  438--8633 Email: todd@quasny.com}
+
+%\section{}{J. Ross Beveridge,}{Department of Computer Science,
+%        Colorado State University, Fort Collins, CO 80523.  Telephone: 
+%        (970) 491--5877 Email: ross@cs.colostate.edu}
+
+%\section{}{Darrell Whitley,}{Department of Computer Science,
+%        Colorado State University, Fort Collins, CO 80523.  Telephone:
+%        (970) 491--5373 Email: whitley@cs.colostate.edu}
+
+
+%\section{}{W. J. Bryan Oldham,}{Department of Computer Science, Texas Tech
+%        University, Box 43103, Lubbock, TX 79409. Telephone: 
+%        (806)742--3527 Email: oldham@cs.coe.ttu.edu}
+
+%%        {Professor Thomas M. English   Department of Computer Science, Texas
+%%        Tech University, P.O. Box 43104, Lubbock, TX 79409. Telephone
+%%        (806)742-3527(w) (806)791-5774(h). Email: TomEnglish@ttu.edu }
+%%
+
+%\section{}{Pat DeLaune,}{Texaco Exploration and Production
+%        Technology Department. Telephone: (713)954-6030 }
+
+\leftcolwidth{2em}
+\colsep{0em}
+\indentitems
+
+\renewcommand\descriptionlabel[1]{\hspace\labelsep\hspace{-2em}\normalfont\bfseries#1}
+
+\ifthenelse{\boolean{prospectus}}
+{
+\newpage
+%\setcounter{page}{1}
+
+\name{\begin{minipage}{\textwidth}\vspace*{-\baselineskip}\begin{center}Larry
+D. Pyeatt \\ Statement of Teaching Goals \end{center}\end{minipage}}
+
+\address{\myaddress}
+
+\line
+\setlength{\parskip}{\baselineskip}
+\setlength{\parindent}{1em}
+\thispagestyle{empty}
+\chead{Larry D. Pyeatt \\ Teaching Goals}
+\input{teaching-body}
+\newpage
+%\setcounter{page}{1}
+
+\name{\begin{minipage}{\textwidth}\vspace*{-\baselineskip}\begin{center}Larry
+D. Pyeatt \\ Statement of Research Goals \end{center}\end{minipage}}
+
+\address{\myaddress}
+
+\line
+\setlength{\parskip}{\baselineskip}
+\setlength{\parindent}{1em}
+\thispagestyle{empty}
+\chead{Larry D. Pyeatt \\ Research Goals}
+\input{research-body}
+}{}
+
+\end{document}
+

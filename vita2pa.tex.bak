@@ -1,0 +1,167 @@
+\documentclass[11pt]{resume}
+
+\usepackage{times}
+\usepackage{fancyheadings}
+
+%\newboolean{prospectus} 
+%\setboolean{prospectus}{false}
+%\newboolean{long} 
+%\setboolean{long}{false}
+
+
+
+\leftcolwidth{1in}
+\colsep{0.1in}
+%\outdent{0.25in}
+\outdent{0in}
+ 
+%\headheight 3\normalbaselineskip
+%\headsep \normalbaselineskip
+%\addtolength{\topmargin}{-3\normalbaselineskip}
+%\addtolength{\textheight}{-1\normalbaselineskip}
+%\lhead{}
+%\rhead{\thepage}
+%\chead{Biographical Sketch\\Larry D. Pyeatt}
+%\cfoot{}
+%\lfoot{}
+%\rfoot{}
+
+\begin{document}
+
+\name{\begin{minipage}{\textwidth}%\vspace*{-\baselineskip}
+\begin{center}Biographical Sketch\\Larry D. Pyeatt\end{center}\end{minipage}}
+
+%\pagestyle{fancyplain}
+\thispagestyle{empty}
+
+\address{Computer Science Department\\Texas Tech University\\P.O. Box 43104\\Lubbock, TX 79409\\
+         larry.pyeatt@ttu.edu }
+\line
+
+
+\section{Education}
+  {Doctor of Philosophy in Computer Science}
+  {\\Colorado State University, 1999. \\
+  Dissertation:  {\it Integration of Partially Observable Markov
+Decision Processes and Reinforcement Learning for Simulated Robot 
+Navigation}\\ 
+  Committee: Adele Howe (Advisor), Charles Anderson, 
+  Darrell Whitley, Wade Troxell }
+   
+\section{} 
+  {Master of Science in Computer Science}    
+  {\\Texas Tech University, 1991. \\
+  Thesis:   {\it Application of the Neural Ring Pattern Classifier
+  to Speech Recognition}\\
+  Committee: W. J. Bryan Oldham (Advisor), Thomas M. English, Donald Gustafson}
+   
+\section{} 
+  {Bachelor of Science in Computer Science}    
+  {\\Texas Tech University, 1988.% \\
+%  Minor in Psychology, additional course work in Mathematics and 
+%  Electrical Engineering. 
+}
+
+\section{Research Interests}  
+  {}
+  {Partially Observable Markov Decision Processes,
+   Reinforcement Learning, Function Approximation, Robotics and
+   Agent Architectures, Real-time and Embedded Systems }
+
+%\ifthenelse{\boolean{long}}
+%{
+%\section{Honors and Awards}  
+%{Academic}   
+%{\\
+%Upsilon Pi Epsilon (computer science honor society), Texas Tech,
+%1989\\
+%Third Place Team, ACM International Programming Competition,
+%Louisville, KY,  1989\\
+%President's List, Texas Tech, Spring 1986 \\
+%Dean's List, Texas Tech, Spring 1986 \\
+%Engineering Academic Scholarship, Texas Tech, 1983}
+
+%\section{}
+%{Texaco}   
+%{\\Patent Letter, August 30, 1995\\
+%Patent Application Award, July 19, 1993 \\
+%Exploration \& Production Tech. Dept. Award for 
+%Outstanding Supplier, February 23, 1993  \\
+%Individual Outstanding Contribution (IOC) Award for Innovation,
+%August 5, 1992}
+%}{}
+
+\section{Professional Experience}
+{Assistant Professor} {Texas Tech University, Lubbock, 9/99--present.
+}
+
+%\vspace{-1\baselineskip}
+\section{}
+{Graduate Research Assistant/Doctoral Candidate}{Colorado State
+University, Fort Collins, 8/93--6/99. 
+}
+
+\section{}
+    {Senior Information Systems Programmer} {Texaco Inc., Houston,
+    Texas, 9/91--9/93.}
+
+%\vspace{-\baselineskip}
+\section{}
+  {Graduate Research Assistant}
+   {Texas Tech University, Lubbock, Texas,  8/88--9/91. }
+
+%\vspace{-\baselineskip}
+\section{}{Embedded Control Systems Design Engineer} {Applied
+    Hydraulics, Lubbock, Texas, 1/87--7/88.}
+
+
+%%%%%\pagebreak
+%\enlargethispage*{\baselineskip}
+\begin{citations}{Related Publications}{/home/faculty2/pyeatt/bibliography/complete}
+\nocite{Moore:Quasny:Pyeatt:Sinzinger:C01b}
+\nocite{Pyeatt:Howe:J00}
+\nocite{Pyeatt:Howe:C01a}
+\nocite{Pyeatt:Howe:C99c}
+%\nocite{Pyeatt:Howe:C99b}
+\nocite{Pyeatt:Howe:C99a}
+\end{citations}
+
+\begin{citations}{Other Selected Publications}{/home/faculty2/pyeatt/bibliography/complete}
+\nocite{Pyeatt:Howe:C98b}
+\nocite{Pyeatt:Howe:C98a}
+\nocite{Howe:Pyeatt:C96}
+\nocite{Gruau:Whitley:Pyeatt:C96}
+\nocite{Whitley:Gruau:Pyeatt:C95}
+%\nocite{Whitley:Mathias:Pyeatt:C95}
+%\nocite{Pyeatt:Oldham:C91}
+%\nocite{Reyes:Pyeatt95}
+\end{citations}
+
+
+\section{Synergistic Activities }{Curriculum Development}
+{\\ Co-PI on NSF CRCD grant entitled ``Machine Learning: a Multidisciplinary
+  Computer Engineering Graduate Program.''  The grant supports the creation of
+  an interdisciplinary program in artificial intelligence and includes the
+  development of new courses and textbooks in Dynamic Programming and
+  Reinforcement Learning.  }
+
+\section{}{Reviewer}
+        {\\
+2001 IEEE Transactions on Pattern Analysis and Machine Intelligence\\
+2001 International Symposium on Adaptive Systems\\
+2000 IEEE Transactions on Pattern Analysis and Machine Intelligence \\ 
+        1999 IEEE Transactions on Knowledge and Data Engineering\\
+        1999 Journal of Experimental and Theoretical Artificial Intelligence\\
+         1998 American Journal of Mathematical and Management Sciences}
+
+%\section{}{Program Committee}
+%{\\ Workshop on Teams with Adjustable Autonomy at Autonomous Agents 2000,
+%                                     Barcelona, Spain,
+%                                       June 3/4, 2000  }
+
+\section{Collaborators}{}{Adele Howe (Colorado State University), Sunanda Mitra (Texas Tech University), Donald Wunsch (University of Missouri)}
+
+\section{Students Advised}{}{Bharani Ellore, Ajay Bansal, Julian Hooker, Sujoy Ganguly, Todd Quasny, Sriram Sundararajan, Adem Ozyavas, Srividya Kona}
+
+\end{document}
+

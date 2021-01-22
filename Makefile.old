@@ -1,0 +1,74 @@
+
+
+SUFFIXES =  .tex .ps .bbl .aux .pdf
+.SUFFIXES: $(SUFFIXES)
+
+
+BIBFILES = ~/bibliography/complete.bib
+#MAIN = vita
+#MAIN = vita_industry
+#MAIN = vita_4_alan
+MAIN = vita2pa
+#MAIN = vita_review
+#MAIN = research
+#MAIN = teaching
+MAINTEX=${MAIN}.tex
+MAINDVI=${MAIN}.dvi
+MAINAUX=${MAIN}.aux
+MAINLOG=${MAIN}.log
+MAINPS=${MAIN}.ps
+MAINPDF=${MAIN}.pdf
+TEXFILES = $(wildcard *.tex)
+
+#BIBAUX = $(wildcard ${MAIN}.*.aux)
+BIBAUX = $(wildcard bu*.aux)
+BIBS = $(subst .aux,.bbl,${BIBAUX})
+
+#temp:
+#	echo ${MAIN}
+#	echo ${BIBAUX}
+#	echo  ${BIBS}
+
+.aux.bbl: ${BIBAUX}  ${BIBFILES} ${MAINTEX}
+	bibtex $(subst .aux,,$<)
+
+#.bbl.aux: ${BIBAUX} ${BIBS}
+#	bibtex $(subst .aux,,$<)
+
+${MAINPDF}: ${MAINPS}
+	dvipdfmx -p letter -o ${MAINPDF} ${MAIN}
+	./stripstmts.sh ${MAIN}
+
+${MAINPS}: ${MAINTEX} ${BIBFILES} ${BIBS}
+	gmake latex_doit
+	gmake latex_doit
+	gmake rest
+
+#	ps2pdf ${MAINPS}
+#	distill ${MAINPS}
+
+rest: ${BIBS} ${BIBFILES}
+	gmake latex_doit
+	gmake latex_doit
+	dvips -t letter -o ${MAINPS} ${MAINDVI}
+
+latex_doit:
+	pdflatex ${MAIN}
+
+clean:
+	rm -f *.bbl *.aux *.blg ${MAINPS} ${MAINPDF} *.dvi *.blg *.log *~
+
+cover:
+	latex cover_letter
+	dvips -o cover_letter.ps cover_letter
+	ps2pdf cover_letter.ps
+
+
+install: ${MAINPDF}
+	mv ${MAINPS} ${MAINPDF} ../public_html/papers
+	chmod a+r ../public_html/papers/${MAINPS} ../public_html/papers/${MAINPDF}
+
+
+
+
+

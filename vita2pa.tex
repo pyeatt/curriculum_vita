@@ -1,0 +1,466 @@
+\documentclass[11pt]{article}
+
+\usepackage{bibunits}
+
+\newenvironment{citations}[2]
+{\renewcommand\refname{#1}
+\renewcommand\section[2]{\subsection*{#1}}
+  \def\@citefile{#2}
+ \begin{bibunit}[unsrt]}
+{\putbib[\@citefile]
+\end{bibunit}}
+
+
+\usepackage{times}
+\usepackage{fancyhdr}
+
+\textwidth 7.25in
+\evensidemargin -0.375in
+\oddsidemargin -0.375in
+\topmargin -0.25in
+\textheight 9.5in
+
+\headheight 3\normalbaselineskip
+\headsep \normalbaselineskip
+\addtolength{\topmargin}{-3\normalbaselineskip}
+\addtolength{\textheight}{-1\normalbaselineskip}
+\lhead{}
+\rhead{\thepage}
+\chead{Biographical Sketch\\Larry D. Pyeatt}
+\cfoot{}
+\lfoot{}
+\rfoot{}
+
+\newcommand\myaddress{}
+
+\begin{document}
+
+\pagestyle{fancyplain}
+\thispagestyle{empty}
+
+\begin{center}
+  {\bf Biographical Sketch}\\
+  Larry D. Pyeatt\\
+  Associate Professor\\
+  Department of Mathematics and Computer Science\\
+  South Dakota School of Mines and Technology\\
+  501 East Saint Joseph Street\\
+  Rapid City, SD 57701-3995
+\end{center}
+
+
+\subsection*{A. PROFESSIONAL PREPARATION}
+\noindent\begin{tabular}{lll}
+College/University & Major & Degree and Year\\
+\hline
+  Texas Tech University & Computer Science & Bachelor of Science, 1988\\
+  Texas Tech University & Computer Science & Master of Science, 1991 \\
+  Colorado State University &Computer Science & Doctor of Philisophy, 1999\\
+\end{tabular}
+
+\subsection*{B. ACADEMIC/PROFESSIONAL APPOINTMENTS}
+\noindent\begin{tabular}{lll}
+Title & Employer & Dates\\
+\hline
+Associate Professor & South Dakota School of Mines and Technology &8/2012--present\\
+Associate Department Chair & Texas Tech University at Abilene  & 1/2008--7/2010\\
+Associate Professor & Texas Tech University & 1/2006--7/2012\\
+Visiting Assistant Professor & University of Missouri, Rolla & 1/2005--12/2005\\
+Assistant Professor & Texas Tech University & 9/1999--12/2004\\
+Lecturer & Colorado State University,  & 9/1998--9/1999\\
+Senior Information Systems Programmer & Texaco Inc. & 9/1991--9/1993
+\end{tabular}
+
+\subsection*{C. PUBLICATIONS}
+
+\newcommand{\bibfile}{$HOME/bibliography/LarryPubs}
+
+%% %\begin{citations}{Accepted Papers Awaiting Publication\vspace*{-\baselineskip}}{\bibfile}
+%% %
+%% %\end{citations}
+
+%% %% \begin{citations}{Refereed Journal Articles}{$HOME/bibliography/LarryPubs}
+%% %% \nocite{Moore:Doufas:Pyeatt:2011a}
+%% %% \nocite{Pyeatt:Howe:J00}
+%% %% \end{citations}
+%% %% \input{journals.tex}
+
+
+\let\OLDthebibliography\thebibliography
+\renewcommand\thebibliography[1]{\vspace*{-\baselineskip}
+  \OLDthebibliography{#1}
+  \setlength{\parskip}{0pt}
+  \setlength{\itemsep}{0pt}
+}
+
+
+\begin{citations}{}{$HOME/bibliography/LarryPubs}
+  \nocite{Caudle:Pyeatt:Fleming:Hoover:2019}
+  \nocite{Randrianasolo:Pyeatt:2018}
+\nocite{Caudle:Karlsson:Pyeatt:2015a}
+\nocite{Caudle:Karlsson:Pyeatt:2014a}
+\nocite{Moore:Pyeatt:2014}
+\nocite{Randrianasolo:Pyeatt:2012b}
+\nocite{Borera:Moore:Doufas:Pyeat:2011}
+\nocite{shukla:pyeatt:2011}
+\nocite{Pyeatt:Howe:C01a}
+\nocite{Pyeatt:Howe:C98b}
+%\nocite{Pyeatt:Howe:C98a}
+%\nocite{Howe:Pyeatt:C96}
+\end{citations}
+
+
+
+%\nocite{Borera:Randrianasolo:Mahdi:Pyeatt:2010}
+%\nocite{Randrianasolo:Pyeatt:2010}
+%\nocite{Moore:Panousis:IAAI:2010}
+%\nocite{Moore:Pyeatt:Doufas:nocite}
+%% \2009b{Moore:Pyeatt:Doufas:2009}
+%% \nocite{KimPyeattWunsch2009}
+%% \nocite{KimPyeattWunsch2007}
+%% \nocite{Helm:Cooke:Rushton:Pyeatt:Becker:2006}
+%% \nocite{Moore:Quasny:Sinzinger:Pyeatt:C04}
+%% \nocite{Quasny:Pyeatt:C04}
+%% \nocite{Li:PyeattC04a}
+%% \nocite{Li:PyeattC04b}
+%% \nocite{Li:PyeattC04c}
+%% \nocite{Li:PyeattC04d}
+%% \nocite{pyeatt2003a}
+%% \nocite{quasny2003a}
+%% \nocite{Quasny:Garcia:Barnes:Pyeatt:C04}
+%% \nocite{Moore:Quasny:Pyeatt:Sinzinger:C01b}
+%% \nocite{Pyeatt:Howe:C01a}
+%% \nocite{Pyeatt:Howe:C99a}
+%% \nocite{Pyeatt:Howe:C99c}
+%% \nocite{Pyeatt:Howe:C98b}
+%% \nocite{Pyeatt:Howe:C98a}
+%% \nocite{Howe:Pyeatt:C96}
+%% \nocite{Gruau:Whitley:Pyeatt:C96}
+%% \nocite{Whitley:Mathias:Pyeatt:C95}
+%% \nocite{Whitley:Gruau:Pyeatt:C95}
+%% \nocite{Pyeatt:Oldham:C91}
+
+\subsection*{D. SYNERGISTIC ACTIVITIES}
+% A list of up to five examples that demonstrate the broader impact of
+% the individual’s professional and scholarly activities that focuses on
+% the integration and transfer of knowledge as well as its creation.
+% Examples could include, among others: innovations in teaching and
+% training (e.g., development of curricular materials and pedagogical
+% methods); contributions to the science of learning; development and/or
+% refinement of research tools; computation methodologies, and
+% algorithms for problem-solving; development of databases to support
+% research and education; broadening the participation of groups
+% underrepresented in science, mathematics, engineering and technology;
+% and service to the scientific and engineering community outside of the
+% individual’s immediate organization.
+\begin{itemize}
+\item Developing Assembly Language course with hands-on use of the Raspberry Pi, a low-cost Linux based computer.
+\item Under contract to publish Assembly Language textbook with Elsevier in
+  2015.
+\end{itemize}
+
+\subsection*{E. COLLABORATORS AND OTHER AFFILIATIONS}
+\subsubsection*{Collaborators  and Co-Editors}
+Eddy C. Borera (Lipscomb University),
+Anthony G. Doufas (Stanford University Medical Center), Vivek Kulkarni (Stanford School of Medicine), Brett L. Moore (Kinetic Concepts, Inc), Mahdi Naser-Moghadasi (American Airlines), Periklis Panousis (Stanford University School of Medicine), Arisoa Randrianasolo ( Lipscomb University), and Shubham Shukla (Amazon.com)
+
+\subsubsection*{Graduate Advisors and Postdoctoral Sponsors}
+Adele E. Howe (Colorado State University) and William J. B. Oldham (Texas Tech university)
+
+
+\subsubsection*{Thesis Advisor and Postgraduate-Scholar Sponsors}
+
+Advised the following 17 graduate students: Tetsuya Idota (South
+Dakota School of Mines and Technology), 
+Eddy
+C. Borera (Lipscomb University), Roger Coffey (Current affiliation
+unknown), Derik Dalton (Current affiliation unknown), Bharani Ellore
+(Current affiliation unknown), Karan Gupta (Current affiliation
+unknown), Julian Hooker (Current affiliation unknown), Srividya Kona
+(Current affiliation unknown), ChengCheng Li (Current affiliation
+unknown), Brett L. Moore (Kinetic Concepts), Inc), Mahdi
+NaserMoghadasi (American Airlines), Krishnan Pazhayanoor (Current
+affiliation unknown), Todd Quasny (NASA), Arisoa Randrianasolo
+(Lipscomb University), Shubham Shukla (Amazon.com), and Amit Yadav
+(Current affiliation unknown).
+Nguyen Bach (Current
+affiliation unknown), Ajay Bansal (Current affiliation unknown),
+
+%4. Current and Pending Support: None
+
+
+%% %%\input{conferences.tex}
+
+%% %% \begin{citations}{Doctoral \\ Dissertation}{\bibfile}
+%% %% \nocite{PyeattTHESIS}
+%% %% \end{citations}
+
+%% %% \begin{citations}{Master's \\ Thesis}{\bibfile}
+%% %% \nocite{Pyeatt:91}
+%% %% \end{citations}
+
+%% %% \input{symposia.tex}
+
+%% %% \begin{citations}{Unrefereed Technical Reports}{\bibfile}
+%% %% \nocite{Stevens:Pyeatt:Houlton:Goss:95}
+%% %% \nocite{Pyeatt:Howe:TR98c}
+%% %% \end{citations}
+
+%% %% \begin{citations}{Professional
+%% %% Presentations}{$HOME/bibliography/LarryInvited}
+%% %% \nocite{Present03a}
+%% %% \nocite{Present03b}
+%% %% \nocite{Present02a}
+%% %% \nocite{Present01b}
+%% %% \nocite{Present01a}
+%% %% \nocite{Present00a}
+%% %% \nocite{Present99c}
+%% %% \nocite{Present99b}
+%% %% \nocite{Present99a}
+%% %% \nocite{Present98c}
+%% %% \nocite{Present98b}
+%% %% \nocite{Present98a}
+%% %% \nocite{Present97}
+%% %% \nocite{Present96}
+%% %% \nocite{Present91}
+%% %% \end{citations}
+
+%% %% \begin{citations}{Patent}{$HOME/bibliography/LarryPatent}
+%% %% \nocite{Reyes:Pyeatt95}
+%% %% \end{citations}
+
+%% \newcommand{\grantfile}{$HOME/bibliography/LarryGrants}
+
+%% \begin{citations}{Recent Funding}{\grantfile}
+%% \nocite{GrantG}
+%% \nocite{GrantA}
+%% \nocite{GrantB}
+%% \nocite{GrantC}
+%% %% \nocite{GrantD}
+%% %% \nocite{GrantE}
+%% %% \nocite{GrantF}
+%% \end{citations}
+
+%% %% \begin{citations}{Pending Proposals}{\grantfile}
+%% %% \nocite{GrantProposalO}
+%% %% \end{citations}
+
+%% \newcommand{\grantfile}{$HOME/bibliography/LarryGrants}
+
+%% \begin{citations}{Pending Proposals}{\grantfile}
+%%   \nocite{GrantProposal2016A}
+%%   \nocite{GrantProposal2016B}
+%% \end{citations}
+
+
+%% \begin{citations}{Grants Received}{\grantfile}
+%%   \nocite{GrantProposal2014A}
+%%   \nocite{GrantH}
+%%   \nocite{GrantG}
+%%   \nocite{GrantA}
+%%   \nocite{GrantB}
+%%   \nocite{GrantC}
+%%   \nocite{GrantD}
+%%   \nocite{GrantE}
+%%   \nocite{GrantF}
+%% \end{citations}
+
+
+
+
+%% \section{Professional Service}{Reviewer}
+%%         {\\
+%% 2012 Journal of Machine Learning Research\\
+%% 2011 Journal of Machine Learning Research\\
+%% 2010 Journal of Machine Learning Research
+%% %% 2004 International Conference on Machine Learning\\
+%% %% 2002 IASTED International Conference on Applied Informatics (AI 2003)\\
+%% %% 2001 IEEE Transactions on Pattern Analysis and Machine Intelligence\\
+%% %% 2001 International Symposium on Adaptive Systems\\
+%% %% 2000 IEEE Transactions on Pattern Analysis and Machine Intelligence \\ 
+%% %% 1999 Journal of Experimental and Theoretical Artificial Intelligence\\
+%% %% 1999 IEEE Transactions on Knowledge and Data Engineering\\
+%% %% \rm
+%% %% 1998 American Journal of Mathematical and Management Sciences\\
+%% }
+
+%% \section{}{Program Committees}
+%%         {\\
+%% 2004 International Conference on Machine Learning\\
+%% 2001 Third International Symposium on Adaptive Systems \\
+%% }
+
+%% \section{International Service}{External Examiner}
+%% {
+%% PhD defense of Adam Milstein, ``Improved Particle Filter Based Localization and Mapping,''
+%% University of Waterloo, Waterloo, CA, March 5, 2008.
+%% }
+
+
+
+
+
+%% \section{Courses Taught}{Undergraduate}
+%% {\\
+%% \hspace*{1em} Introduction to Systems Programming\\
+%% \hspace*{1em} Introduction to Digital Logic\\
+%% \hspace*{1em} Advanced Digital Projects\\
+%% \hspace*{1em} Operating Systems\\
+%% \hspace*{1em} Introduction to AI Robotics\\
+%% \hspace*{1em} Programming Languages\\
+%% \hspace*{1em} Senior Projects\\
+%% \hspace*{1em} Introduction to Computer Science
+%% }
+
+%% \section{}{Graduate}
+%% {\\
+%% \hspace*{1em} Digital Forensics\\
+%% \hspace*{1em} Computer Architecture\\
+%% \hspace*{1em} Markov Decision Processes\\
+%% \hspace*{1em} Reinforcement Learning\\
+%% \hspace*{1em} Advanced Operating Systems\\
+%% \hspace*{1em} Intelligent Systems\\
+%% \hspace*{1em} Introduction to AI Robotics\\
+%% \hspace*{1em} All-terrain Robotics
+%% }
+
+%% \section{Graduate Students Advised}{Doctoral Students}
+%% {
+%% \\Brett Moore, Graduated April, 2010\\
+%%   Arisoa Randrianasolo, expected gradutation in May 2012\\
+%%   Eddy Borera, expected gradutation December 2012\\
+%%  }
+
+%% \section{}{Master's Students}
+%% {\\Amit Yadav, expected gradutation in May 2012\\
+%%   Shubham Shukla, graduated in May, 2011\\
+%%   Mahdi Naser-Moghadasi, graduated in May, 2010\\
+%%   Arisoa Randrianasolo, graduated in May, 2010\\
+%%   Eddy Borera, graduated in  May, 2010\\
+%%   Nguyen Bach, graduated in  May, 2010\\
+%%   ChengCheng Li, graduated in May, 2005\\
+%%   Srividya Kona, graduated in May, 2002\\
+%%   Ajay Bansal, graduated in May, 2002\\
+%%   Bharani Ellore, graduated in December, 2002\\
+%%   Todd Quasny, graduated in December, 2003\\
+%%   Julian Hooker, graduated in May, 2004\\
+%%   Krishnan Pazhayanoor,graduated in December, 2004\\
+%%   Karan Gupta, graduated in May, 2005\\
+%%   Roger Coffey, expected graduation in May, 2009\\
+%%   Derik Dalton, expected graduation in December, 2009\\
+%% }
+
+%% %\section{}{Bachelor's Students}
+%% %{\\Todd Quasny, graduated in December, 2001
+%% %}
+
+%% %\section{Languages \& Systems }{}
+%% %        {C, C++, Pascal, Modula-2, Modula-3, PL/1, Lisp,    
+%% %        Prolog, Ada, LISP, 8051 assembly, 80x86 assembly, 
+%% %        VAX Macro assembly, IBM 360 assembly, 680x0 assembly, 
+%% %        6811 assembly, MIPS assembly, Unix, Macintosh, X11, Motif, 
+%% %        Athena, SQL, Perl, HTML, OpenGL, Java. }
+%% %\pagebreak
+
+%% %\section{References}{}{Available upon request}
+%% %\section{References}{}
+
+%% %% \section{References}{Adele E. Howe,}{Department of Computer
+%% %%   Science, Colorado State University, Fort Collins, CO 80523.  Telephone:
+%% %%   (970)491--4192, Email: howe@cs.colostate.edu}
+
+%% \section{References}{William M. Marcy,}{Department Chair and Former Provost, Texas Tech
+%%   University, Department of Computer Science, Box 43104, Lubbock, TX 79409,
+%% Telephone: (806)742--3970, Email: william.marcy@ttu.edu}
+
+%% %% \section{}{Robin R. Murphy,} {Department of Computer Science and Engineering,
+%% %% 333 H.R.\ Bright Building,
+%% %% Texas A\&M University, 
+%% %% College Station, TX 77843-3112,
+%% %% Telephone: (979)845--2015, 
+%% %% Email: murphy@cs.tamu.edu
+%% %% }
+
+%% %% \section{}{Donald C. Wunsch II, } {M.K.\ Finley Distinguished Professor of Computer Engineering,
+%% %% Department of Electrical and Computer Engineering, 1870 Miner Circle,
+%% %% 131 Emerson Electric Company Hall,
+%% %% Rolla, MO 65409, Telephone: (573)341--4521, Email:  dwunsch@ece.umr.edu}
+
+%% \section{}{Susan Mengel,}{Associate Chair, Department of Computer Science, 
+%%   Texas Tech University, Box 43104, Lubbock, TX 79409. Telephone: (806)
+%%   742--3527 Email: susan.mengel@ttu.edu}
+
+
+
+%% \section{}{Henry Hexmoor,}{Department of Computer Science,
+%% Southern Illinois University at Carbondale,
+%% Faner Hall, Room 2130,
+%% Carbondale, IL 62901, 
+%% Telephone: (618)453--6047,
+%% Email: Hexmoor@gmail.com }
+
+%\section{}{Todd M. Quasny,}{(student) Department of Computer Science,
+%  Texas Tech University, Box 43104, Lubbock, TX 79409.  Telephone: (806)
+%  438--8633 Email: todd@quasny.com}
+
+%\section{}{J. Ross Beveridge,}{Department of Computer Science,
+%        Colorado State University, Fort Collins, CO 80523.  Telephone: 
+%        (970) 491--5877 Email: ross@cs.colostate.edu}
+
+%\section{}{Darrell Whitley,}{Department of Computer Science,
+%        Colorado State University, Fort Collins, CO 80523.  Telephone:
+%        (970) 491--5373 Email: whitley@cs.colostate.edu}
+
+
+%\section{}{W. J. Bryan Oldham,}{Department of Computer Science, Texas Tech
+%        University, Box 43103, Lubbock, TX 79409. Telephone: 
+%        (806)742--3527 Email: oldham@cs.coe.ttu.edu}
+
+%%        {Professor Thomas M. English   Department of Computer Science, Texas
+%%        Tech University, P.O. Box 43104, Lubbock, TX 79409. Telephone
+%%        (806)742-3527(w) (806)791-5774(h). Email: TomEnglish@ttu.edu }
+%%
+
+%\section{}{Pat DeLaune,}{Texaco Exploration and Production
+%        Technology Department. Telephone: (713)954-6030 }
+
+%% \leftcolwidth{2em}
+%% \colsep{0em}
+%% \indentitems
+
+%% \renewcommand\descriptionlabel[1]{\hspace\labelsep\hspace{-2em}\normalfont\bfseries#1}
+
+%% \ifthenelse{\boolean{prospectus}}
+%% {
+%% \newpage
+%% %\setcounter{page}{1}
+
+%% \name{\begin{minipage}{\textwidth}\vspace*{-\baselineskip}\begin{center}Larry
+%% D. Pyeatt \\ Statement of Teaching Goals \end{center}\end{minipage}}
+
+%% \address{\myaddress}
+
+%% \line
+%% \setlength{\parskip}{\baselineskip}
+%% \setlength{\parindent}{1em}
+%% \thispagestyle{empty}
+%% \chead{Larry D. Pyeatt \\ Teaching Goals}
+%% \input{teaching-body}
+%% \newpage
+%% %\setcounter{page}{1}
+
+%% \name{\begin{minipage}{\textwidth}\vspace*{-\baselineskip}\begin{center}Larry
+%% D. Pyeatt \\ Statement of Research Goals \end{center}\end{minipage}}
+
+%% \address{\myaddress}
+
+%% \line
+%% \setlength{\parskip}{\baselineskip}
+%% \setlength{\parindent}{1em}
+%% \thispagestyle{empty}
+%% \chead{Larry D. Pyeatt \\ Research Goals}
+%% \input{research-body}
+%% }{}
+
+\end{document}
+

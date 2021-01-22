@@ -1,0 +1,98 @@
+Biographical Sketch
+Larry D. Pyeatt
+Computer Science Department
+Texas Tech University
+P.O. Box 43104
+Lubbock, TX 79409
+larry.pyeatt@ttu.edu
+Education 
+
+Doctor of Philosophy in Computer Science
+Colorado State University, 1999.
+Dissertation: Integration of Partially Observable Markov Decision Processes and Reinforcement Learning for Simulated Robot Navigation
+Committee: Adele Howe (Advisor), Charles Anderson, Darrell Whitley, Wade Troxell
+
+Master of Science in Computer Science
+Texas Tech University, 1991.
+Thesis: Application of the Neural Ring Pattern Classifier to Speech Recognition
+Committee: W. J. Bryan Oldham (Advisor), Thomas M. English, Donald Gustafson
+Bachelor of Science in Computer Science
+Texas Tech University, 1988.
+
+Research Interests
+
+Partially Observable Markov Decision Processes, Reinforcement Learning, Function Approximation, Robotics and Agent Architectures, Real­time and Embedded Systems
+
+Professional Experience
+
+Assistant Professor Texas Tech University, Lubbock, 9/99--present.
+
+Graduate Research Assistant/Doctoral Candidate Colorado State University, Fort
+Collins, 9/93--9/99.
+
+Senior Information Systems Programmer Texaco Inc., Houston, Texas, 9/91--9/93.
+
+Graduate Research Assistant Texas Tech University, Lubbock, Texas, 8/88--9/91.
+
+Embedded Control Systems Design Engineer Applied Hydraulics, Lubbock, Texas,
+1/87--7/88.
+
+Selected Publications
+
+Larry D. Pyeatt and Adele E. Howe. Evaluating robustness in a two layer
+simulated robot architecture. Journal of Experimental and Theoretical
+Artificial Intelligence: Special Issue on Autonomy Control Software, 2000.
+
+Larry D. Pyeatt. Integration of Partially Observable Markov Decision Processes
+and Reinforcement Learning for Simulated Robot Navigation. PhD dissertation,
+Colorado State University, Computer Science Department, July 1999.
+
+Larry D. Pyeatt and Adele E. Howe. A parallel algorithm for POMDP solution. In
+Proceedings of the Fifth European Conference on Planning (ECP­99), Durham,
+United Kingdom, September 1999.
+
+Larry D. Pyeatt and Adele E. Howe. Integrating POMDP and reinforcement
+learning for a two layer simulated robot architecture. In Third International
+Conference on Autonomous Agents, Seattle, Washington, May 1999.
+
+Larry D. Pyeatt and Adele E. Howe. Learning to race: Experiments with a
+simulated race car. In Diane J. Cook, editor, Proceedings of the Eleventh
+International Florida Artificial Intelligence Research Symposium Conference,
+pages 357--361, Sanibel Island, FL, May 1998. Florida Artificial Intelligence Research Symposium, AAAI Press.
+
+Larry D. Pyeatt and Adele E. Howe. Reinforcement learning for coordinated
+reactive control. In Fourth World Congress on Expert Systems, March 1998.
+
+Adele E. Howe and Larry D. Pyeatt. Constructing transition models of AI
+planner behavior. In Proceedings of the Eleventh Knowledge Based Systems
+Engineering Conference, September 1996.
+
+Frederic Gruau, Darrell Whitley, and Larry Pyeatt. A comparison between
+cellular encoding and direct encoding for genetic neural networks. In
+Proceedings of the Sixth International Conference on Genetic
+Programming. Stanford University Press, July 1996. 
+
+Darrell Whitley, Frederic Gruau, and Larry Pyeatt. Cellular encoding applied
+to neuro-control. In Proceedings of the Sixth International Conference on
+Genetic Algorithms, July 1995.
+
+Marilyn V. Reyes and Larry D. Pyeatt. Interpretation of fluorescence
+fingerprints of crude oils and other hydrocarbon mixtures using neural
+networks. United States Patent 5424959, property of Texaco Inc., 1995.
+
+Synergistic Activities
+
+Curriculum Development
+Co­PI on NSF CRCD grant entitled ``Machine Learning: a Multidisciplinary
+Computer Engineering Graduate Program.'' The grant supports the creation of an
+interdisciplinary program in artificial intelligence and includes the
+development of new courses and textbooks in Markov decision processes and reinforcement learning.
+
+Reviewer
+1998 American Journal of Mathematical and Management Sciences
+1999 IEEE Transactions on Knowledge and Data Engineering
+1999 Journal of Experimental and Theoretical Artificial Intelligence
+
+Program Committee
+Workshop on Teams with Adjustable Autonomy at Autonomous Agents 2000,
+Barcelona, Spain, June 3/4, 2000

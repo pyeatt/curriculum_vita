@@ -1,0 +1,64 @@
+\documentclass[11pt]{letter}
+\usepackage{ifthen}
+\usepackage{times}
+\usepackage{graphics}
+
+\textwidth 6.5in
+\textheight 9in
+\headheight 0in
+\headsep 0in
+\topmargin 0.0in
+\evensidemargin 0in
+\oddsidemargin 0in
+
+\raggedright
+
+\newcommand{\place}{your university}
+\newcommand{\thecustom}{}
+\newcommand{\custom}[2]{\renewcommand\place{#1}\renewcommand\thecustom{#2}}
+
+\newboolean{skiprobin} 
+\setboolean{skiprobin}{false}
+
+\makelabels
+
+\address{Larry D. Pyeatt, PhD\\2624 Dana\\Lubbock, Texas 79415\\(806)763-0577}
+\begin{document}
+
+\signature{Larry D. Pyeatt, PhD}
+
+
+
+\custom{UMR}{%\enlargethispage{-\baselineskip} 
+Although I have been granted tenure and promotion at Texas Tech, I am highly
+motivated to move to Rolla.  When I finished my PhD in 1999, I was invited
+to UMR for an interview. UMR was at the top of my list for desirability.
+However, due to financial constraints, UMR cancelled my interview.  UMR is
+still a very desirable place for me, and my daughter and ex-wife have
+already relocated there.  I have secured a six-month visiting professor
+position in the ECE department at UMR, and will be co-teaching a course with
+Don Wunsch on Markov Decision Processes during the Spring 2005 semester.
+Since I will already be on campus, an interview would be very inexpensive.
+
+My research interests in AI and robotics complement those of some of your
+current faculty members. In addition, over the past year, I have begun work
+to apply probabilistic AI in the field of bioinformatics.  The first task
+was to bring myself and some of my students up to speed in the
+bioinformatics field.  We have done that and have identified some potential
+applications.  We are just beginning our explorations.  I am preparing a
+grant proposal which I expect to submit in Spring or Summer of 2005.
+}
+\begin{letter}{Human Resource Services\\
+Reference Number:  00032217/00031009\\
+University of Missouri-Rolla\\
+1202 North Bishop\\
+1870 Miner Circle\\
+Rolla, MO 65409-1050}
+\opening{Dear search committee,}
+\input{cover_letter_body}
+\closing{Sincerely,}
+\end{letter}
+
+
+
+\end{document}

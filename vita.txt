@@ -1,0 +1,257 @@
+Larry D. Pyeatt
+Curriculum Vitae
+2330 56th
+Lubbock, Texas 79412
+(806) 791--3696
+larry.pyeatt@ttu.edu
+Education Doctor of Philosophy in Computer Science
+Colorado State University, 1999.
+Dissertation: Integration of Partially Observable Markov Decision Processes and Rein­
+forcement Learning for Simulated Robot Navigation
+Committee: Adele Howe (Chair), Charles Anderson, Darrell Whitley, Wade Troxell
+Master of Science in Computer Science
+Texas Tech University, 1991.
+Thesis: Application of the Neural Ring Pattern Classifier to Speech Recognition
+Committee: W. J. Bryan Oldham (Chair), Thomas M. English, Donald Gustafson
+Bachelor of Science in Computer Science
+Texas Tech University, 1988.
+Minor in Psychology, additional course work in Mathematics and Electrical Engineering.
+Research
+Interests
+Partially Observable Markov Decision Processes, Reinforcement Learning, Function Ap­
+proximation, Robotics and Agent Architectures, Real­time and Embedded Systems
+Honors and
+Awards
+Academic
+Upsilon Pi Epsilon (computer science honor society), Texas Tech, 1989
+Third Place Team, ACM International Programming Competition, Louisville, KY, 1989
+President's List, Texas Tech, Spring 1986
+Dean's List, Texas Tech, Spring 1986
+Engineering Academic Scholarship, Texas Tech, 1983
+Texaco
+Patent Letter, August 30, 1995
+Patent Application Award, July 19, 1993
+Exploration & Production Tech. Dept. Award for Outstanding Supplier, February 23,
+1993
+Individual Outstanding Contribution (IOC) Award for Innovation, August 5, 1992
+Languages English, Russian
+Professional
+Experience
+Lecturer/Doctoral Candidate 1/98--present. Taught courses in digital design and as­
+sembly language programming, operating systems, and programming languages.
+Graduate Research Assistant/Doctoral Candidate Colorado State University, Fort
+Collins, 9/93--present. Explored several areas of AI before focusing on reinforcement
+learning and partially observable Markov decision processes in the context of robotics for
+my dissertation.
+
+Larry D. Pyeatt
+Curriculum Vitae 2
+Partially Observable Markov Decision Processes (9/97--present) Implemented all
+known POMDP exact solution algorithms. Improved some algorithms to reduce so­
+lution time and allow solution of larger problems than were previously possible. Ex­
+tended algorithms and code to allow parallel execution on several Unix machines.
+Robotics (9/97--present) Developed a three­level control architecture for the Khep­
+era robot using a symbolic planner at the highest level, POMDP planning at the middle
+level, reinforcement learning at the low level. Implemented middle and low levels and
+showed that a robot could learn low level extended actions as necessary to complete
+its task and could modify its low level actions to adapt to sensor and effector failures.
+Neural Networks and Reinforcement Learning (9/96--9/97) Experimented with re­
+inforcement learning using neural networks for function approximation. Ran experi­
+ments using a Pente simulator, pole­balancing simulator and the Robot Auto Rac­
+ing Simulator (RARS). Added a high­level controller to the RARS system to allow
+switching between learned behaviors. Invented a new function approximation tech­
+nique based on decision trees. Showed that it was superior to the neural network
+approach.
+Structure in Discrete Event Sequences (9/95--9/97) Developed method to detect
+dependencies in program execution traces and construct a Semi­Markov model of the
+underlying system behavior. Worked with Adele Howe, Eric Dahlman and Gabriel
+Somlo to write CLASPWeb which allows anyone with a web browser to use the code.
+Geographical Information Systems (GIS) (5/95--8/95) Developed method to nor­
+malize lighting and remove shadows from aerial and satellite terrain photographs. The
+software worked by texture mapping the photograph onto the corresponding USGS el­
+evation data, calculating the position of the sun at the time the photograph was taken,
+and applying an inverse lighting calculation. The normalized photograph could then
+be texture mapped onto the USGS elevation data and a forward lighting model could
+be applied to show lighting conditions at any time of day or year.
+Genetic Algorithms (9/93--5/95) Developed system to track the ranking of hyper­
+planes during genetic search; compared dynamic ranking with static ranking. Wrote
+code to evolve neural network weights. Compared the results with Frederic Gruau's
+Cellular Encoding method.
+Senior Information Systems Programmer Texaco Inc., Houston, Texas, 9/91--9/93.
+Evaluation and application of Artificial Intelligence and advanced problem solving tech­
+niques for Texaco business needs. Delivered applications on PC, Unix, and IBM main­
+frame platforms. Performed system administration for Unix environment. Used a wide
+variety of systems, languages, tools and techniques. Two major projects were:
+SpectraMan (9/92--9/94) Ultraviolet Fluorescence Spectra Manager. The software
+was used to automate the process of identifying and characterizing unknown hydro­
+carbon mixtures. It kept a database of thousands of known 3D ultraviolet fluorescence
+spectra. The chemist could use a neural network, embedded in the software, to match
+
+Larry D. Pyeatt
+Curriculum Vitae 3
+an unknown sample to every other sample in the database. The neural net selected a
+user­specified number of similar spectra that the chemist could then view and print,
+along with additional information in the database, in order to make a final determina­
+tion about the characteristics of the unknown sample. This software greatly reduced
+the time required to perform an analysis and enabled a large increase in the productiv­
+ity of the chemists. I wrote the prototype in assembly and C on a PC running DOS.
+The prototype showed what was possible, but was deemed too slow and could only
+allow viewing of one spectrum at a time. The final version of the software was written
+in C using the X Window System, Motif, OpenGL, and an SQL database server. It was
+developed on Sun and delivered on SGI. The lead chemist, Dr. Marilyn Reyes, and I
+were awarded United States Patent 5424959 for this software.
+Reservoir Modeling Expert System (11/9--11/92) The reservoir management team
+at Texaco gathers production data on every reservoir that Texaco owns. Once they
+have sufficient data on a particular reservoir, they try to fit the data to one of several
+mathematical models. If they select the correct model, they can accurately predict
+the production of the reservoir and select an appropriate production schedule. There
+were very few people experienced in selecting the model, and several experts had
+recently retired or were preparing to retire. The team leader was faced with having an
+inexperienced staff and no one to train them. We built an expert system for selecting
+the reservoir model, allowing the team to continue its work with a reduced and less
+experienced staff.
+Graduate Research Assistant Texas Tech University, Lubbock, Texas, 8/88--9/91. Re­
+search in neural networks and speech recognition.
+Speech Recognition Developed speaker independent speech recognition system for
+digits. The speech recognition system followed the now standard model of signal pre­
+processing, fast Fourier transform, Mel scale extraction, segmentation using a hidden
+Markov model, and recognition. The recognition section used a neural ring pattern
+classifier.
+Embedded Control Evaluated currently available hardware and operating systems
+for embedded distributed control of silicon wafer processing machinery. Made rec­
+ommendation to the company that funded the study. Taught Introduction to Computer
+Science course using Pascal. Taught digital electronics lab. Supervised construction
+of circuits by the students. Assisted students in the implementation of their circuit
+designs.
+Self­Employed 8/88--7/89. Developed accounting and subscriber list software for small
+newspapers. Wrote code in C and Pascal on IBM PC and Apple Macintosh systems.
+Embedded Control Systems Design Engineer Applied Hydraulics, Lubbock, Texas,
+1/87--7/88. Designed microprocessor and sequential logic based systems for industrial
+control and data acquisition. Designed circuit boards for the systems. Supervised tech­
+nical staff who were responsible for constructing the hardware designs. Designed and
+wrote software for the new systems in assembly and C. Was responsible for all stages of
+the process: assessing customer needs, creating design specifications, implementing the
+systems, installing at the customer's site, and providing post­delivery technical assistance.
+
+Larry D. Pyeatt
+Curriculum Vitae 4
+Journal
+Articles
+Larry D. Pyeatt and Adele E. Howe. Evaluating robustness in a two layer simulated robot
+architecture. Journal of Experimental and Theoretical Artificial Intelligence, 1999. In
+Review.
+Adele E. Howe, Gabriel Somlo, and Larry Pyeatt. Characterizing structure in discrete
+event sequences. Submitted to Journal of Artificial Intelligence Research, July­December
+1998.
+Conference
+Papers
+Larry D. Pyeatt and Adele E. Howe. A parallel algorithm for POMDP solution. In
+Proceedings of the Fifth European Conference on Planning (ECP­99), Durham, United
+Kingdom, September 1999.
+Larry D. Pyeatt and Adele E. Howe. Decision tree function approximation for reinforce­
+ment learning. 1999. Submitted to International Conference on Machine Learning.
+Larry D. Pyeatt and Adele E. Howe. Integrating POMDP and reinforcement learning for a
+two layer simulated robot architecture. In Third International Conference on Autonomous
+Agents, Seattle, Washington, May 1999.
+Larry D. Pyeatt and Adele E. Howe. Learning to race: Experiments with a simulated race
+car. In Diane J. Cook, editor, Proceedings of the Eleventh International Florida Artificial
+Intelligence Research Symposium Conference, pages 357--361, Sanibel Island, FL, May
+1998. Florida Artificial Intelligence Research Symposium, AAAI Press.
+Larry D. Pyeatt and Adele E. Howe. Reinforcement learning for coordinated reactive
+control. In Fourth World Congress on Expert Systems, March 1998.
+Adele E. Howe and Larry D. Pyeatt. Constructing transition models of AI planner behav­
+ior. In Proceedings of the Eleventh Knowledge Based Systems Engineering Conference,
+September 1996.
+Fr’ ed’ eric Gruau, Darrell Whitley, and Larry Pyeatt. A comparison between cellular en­
+coding and direct encoding for genetic neural networks. In Proceedings of the Sixth
+International Conference on Genetic Programming. Stanford University Press, July 1996.
+Darrell Whitley, Fr’ ed’ eric Gruau, and Larry Pyeatt. Cellular encoding applied to neuro­
+control. In Proceedings of the Sixth International Conference on Genetic Algorithms,
+July 1995.
+Darrell Whitley, Keith Mathias, and Larry Pyeatt. Hyperplane ranking and implicit paral­
+lelism in simple genetic algorithms. In Proceedings of the Sixth International Conference
+on Genetic Algorithms, July 1995.
+Larry D. Pyeatt and W. J. Bryan Oldham. Application of the neural ring pattern classifier
+to speech recognition. In Proceedings of the Southeastern Region ACM Conference, pages
+385--387. ACM, 1991.
+PhD
+Dissertation
+Larry D. Pyeatt. Integration of Partially Observable Markov Decision Processes and
+Reinforcement Learning for Simulated Robot Navigation. PhD dissertation, Colorado
+State University, Computer Science Department, July 1999.
+
+Larry D. Pyeatt
+Curriculum Vitae 5
+Masters
+Thesis
+Larry D. Pyeatt. Application of the neural ring pattern classifier to speech recognition.
+M.S. Thesis, Texas Tech University, May 1991.
+Unrefereed
+Symposia &
+Workshops
+Larry D. Pyeatt and Adele E. Howe. Testing generalization in learned simulated robot
+behaviors. In Henry Hexmoore, editor, Workshop on Autonomy Control Software, Seattle,
+Washington, May 1999. Third International Conference on Autonomous Agents.
+Larry D. Pyeatt and Adele E. Howe. Integrating POMDP and reinforcement learning for a
+two layer simulated robot architecture. In Michael Littman and Tony Cassandra, editors,
+AAAI 1998 Fall Symposium Series -- Planning with Partially Observable Markov Deci­
+sion Processes: Working Notes, pages 371--388, Orlando, Florida, October 1998. AAAI.
+Revised version appeared in Third International Conference on Autonomous Agents.
+Unrefereed
+Technical
+Reports
+Larry D. Pyeatt and Adele E. Howe. Decision tree function approximation in reinforce­
+ment learning. Tech Report TR CS­98­112, Colorado State University, Fort Collins,
+Colorado, October 1998.
+Mark R. Stevens, Larry D. Pyeatt, David J. Houlton, and Michael E. Goss. Locating
+shadows in aerial photographs using imprecise elevation data. Technical Report TR
+CS­95­105, Colorado State University, Department of Computer Science, Fort Collins,
+Colorado, 1995.
+Patent Marilyn V. Reyes and Larry D. Pyeatt. Interpretation of fluorescence fingerprints of
+crude oils and other hydrocarbon mixtures using neural networks. United States Patent
+5424959, property of Texaco Inc., 1995.
+Professional
+Presentations
+Larry D. Pyeatt and Adele E. Howe. A parallel algorithm for POMDP solution. Fifth Eu­
+ropean Conference on Planning (ECP­99), September 1999. Durham, United Kingdom.
+Testing generalization in learned simulated robot behaviors. Third International Con­
+ference on Autonomous Agents: Workshop on Autonomy Control Software, May 1999.
+Seattle, Washington.
+Integrating POMDP and reinforcement learning for a two layer simulated robot archi­
+tecture. Third International Conference on Autonomous Agents, May 1999. Seattle,
+Washington.
+Automatic learning of extended actions in a multi­level robot architecture: Preliminary
+results. AAAI Fall Symposium on Planning with Partially Observable Markov Decision
+Processes, October 1998. Orlando, Florida.
+Learning to race: Experiments with a simulated race car. 11th International Florida Arti­
+ficial Intelligence Research Symposium Conference, July 1998. Sanibel Island, Florida.
+Reinforcement learning for coordinated reactive control. Fourth World Congress on Ex­
+pert Systems, March 1998. Mexico City, Mexico.
+
+Larry D. Pyeatt
+Curriculum Vitae 6
+Learning new behaviors. NSF Sponsored Workshop on Intelligent Agents, July 1997.
+Porto Alegre, Brazil.
+A comparison between cellular encoding and direct encoding for genetic neural networks.
+Genetic Programming Conference, July 1996. Stanford University.
+Application of the neural ring pattern classifier to speech recognition. Southeastern Re­
+gion ACM Conference, 1991. Auburn University, Auburn, Alabama.
+Professional
+Service
+Reviewer
+1998 American Journal of Mathematical and Management Sciences
+1999 IEEE Transactions on Knowledge and Data Engineering
+1999 Journal of Experimintal and Theoretical Artificial Intelligence
+References Adele E. Howe, Department of Computer Science, Colorado State University, Fort
+Collins, CO 80523. Telephone: (970)491--7589 Email: howe@cs.colostate.edu
+Charles W. Anderson, Department of Computer Science, Colorado State University,
+Fort Collins, CO 80523. Telephone: (970)491--7491 Email: anderson@cs.colostate.edu
+Darrell Whitley, Department of Computer Science, Colorado State University, Fort
+Collins, CO 80523. Telephone: (970)491--5373 Email: whitley@cs.colostate.edu
+William M. Marcy, Interim Dean of Engineering, Texas Tech University, Box 43103,
+Lubbock, TX 79409­3103. Telephone: (806)742--3451 Email: cswmm@cs.coe.ttu.edu
+W. J. Bryan Oldham, Department of Computer Science, Texas Tech University, Box
+43103, Lubbock, TX 79409. Telephone: (806)742--3527 Email: oldham@cs.coe.ttu.edu
+Pat DeLaune, Texaco Exploration and Production Technology Department. Telephone:
+(713)954­6030
+

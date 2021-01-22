@@ -1,0 +1,58 @@
+SUFFIXES =  .tex .ps .bbl .aux
+.SUFFIXES: $(SUFFIXES)
+
+BIBFILES = complete.bib
+
+MAIN = vita_4_alan
+
+MAINTEX=${MAIN}.tex
+MAINDVI=${MAIN}.dvi
+MAINAUX=${MAIN}.aux
+MAINLOG=${MAIN}.log
+MAINPS=${MAIN}.ps
+MAINPDF=${MAIN}.pdf
+TEXFILES = $(wildcard *.tex)
+
+BIBAUX = $(wildcard bu*.aux)
+BIBS = $(subst .aux,.bbl,${BIBAUX})
+
+.aux.bbl:
+	bibtex $(subst .aux,,$<)
+
+${MAINPDF}: ${MAINPS}
+	pdflatex ${MAINTEX}
+
+${MAINPS}: ${MAINTEX} ${BIBFILES} 
+	make latex_doit
+	make rest
+
+
+#	ps2pdf ${MAINPS}
+#	distill ${MAINPS}
+
+rest: ${BIBS}
+	make latex_doit
+	dvips -o ${MAINPS} ${MAINDVI}
+
+latex_doit:
+	latex ${MAIN}
+
+clean:
+	rm -f *.bbl *.aux *.blg ${MAINPS} ${MAINPDF} *.dvi *.blg *.log *~
+
+cover:
+	latex cover_letter
+	dvips -o cover_letter.ps cover_letter
+	distill cover_letter.ps
+	mv cover_letter.ps cover_letter.pdf ../public_html/papers
+	chmod a+r ../public_html/papers/cover_letter.*
+
+
+install: ${MAINPDF}
+	mv ${MAINPS} ${MAINPDF} ../public_html/papers
+	chmod a+r ../public_html/papers/${MAINPS} ../public_html/papers/${MAINPDF}
+
+
+
+
+

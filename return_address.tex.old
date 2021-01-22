@@ -1,0 +1,27 @@
+\documentclass[10pt]{article}
+\usepackage{labels}
+\usepackage{chancery}
+\usepackage{oldgerm}
+\textwidth=8.21875in
+\evensidemargin=-0.859375in
+\oddsidemargin=-0.859375in
+\LabelRows=20
+\LabelCols=4
+\LeftBorder=0.28125in
+\RightBorder=0.28125in
+\TopBorder=-0.5in
+\BottomBorder=0.5in
+
+\numberoflabels=80
+
+\begin{document}
+%\frakfamily
+\small
+\addresslabel{ \mbox{Dr. Larry Pyeatt \& Kathy Northcut} \\
+%\vspace*{-2.2pt}
+2624 West Dana\\
+%\vspace*{-2.2pt}
+Lubbock, Texas 79415}
+\end{document}
+
+
