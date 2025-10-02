@@ -1,10 +1,10 @@
 
 
-SUFFIXES =  .tex .ps .bbl .aux .pdf
+SUFFIXES = .tex .ps .bbl .aux .pdf
 .SUFFIXES: $(SUFFIXES)
 
 
-BIBFILES = ~/bibliography/LarryPubs.bib
+BIBFILES = LarryPubs.bib
 #MAIN = vita2pa
 MAIN = vita
 #MAIN = vita_industry
@@ -21,13 +21,13 @@ MAINPDF=${MAIN}.pdf
 TEXFILES = $(wildcard *.tex)
 
 #BIBAUX = $(wildcard ${MAIN}.*.aux)
-#BIBAUX = $(wildcard bu*.aux)
-#BIBS = $(subst .aux,.bbl,${BIBAUX})
+BIBAUX = $(wildcard bu*.aux)
+BIBS = $(subst .aux,.bbl,${BIBAUX})
 
 .aux.bbl: ${BIBAUX}  ${BIBFILES} ${MAINTEX}
 	bibtex $(subst .aux,,$<)
 
-${MAINPDF}: ${MAINTEX} ${BIBFILES}
+${MAINPDF}: ${MAINTEX} ${BIBFILES} ${BIBS}
 	pdflatex ${MAIN}
 	$(eval BIBAUX = $(wildcard bu*.aux))
 	for i in ${BIBAUX}; do echo $$i ; bibtex $$i ; done
